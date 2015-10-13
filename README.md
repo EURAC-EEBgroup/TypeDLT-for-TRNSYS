@@ -22,6 +22,7 @@ Some of the input files used in the example project have been generated with the
 * WINDOW 7.3
 * Google SketchUp
 * su2rad
+* TRNSYS
 
 Additional license terms may apply, please refer to the respective third-party software licenses.
 
