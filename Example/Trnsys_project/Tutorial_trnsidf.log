@@ -1,0 +1,30 @@
+************************************************************
+** TRNSIDF Version 1.50 
+** Working directory: C:\Users\GDeMichele\Desktop\documentation type_DLT\simulation 
+************************************************************
+** Reading IDF file: C:\Users\GDeMichele\Desktop\documentation type_DLT\simulation\Tutorial.idf
+** Closing IDF file: C:\Users\GDeMichele\Desktop\documentation type_DLT\simulation\Tutorial.idf
+************************************************************
+** Reading presorted IDF file: C:\Users\GDeMichele\Desktop\documentation type_DLT\simulation\Tutorial_b17.idf
+** Closing IDF file: C:\Users\GDeMichele\Desktop\documentation type_DLT\simulation\Tutorial_b17.idf
+************************************************************
+** Calculation of geometry information start
+Surface : Normal vector : Orientation : Area
+     1        done           done       done
+     2        done           done       done
+     3        done           done       done
+     4        done           done       done
+     7        done           done       done
+     5        done           done       done
+     6        done           done       done
+** Calculation of geometry information end
+************************************************************
+** Writing B17 file: C:\Users\GDeMichele\Desktop\documentation type_DLT\simulation\Tutorial.b17
+** Reading BUI template: NewBuiTemplate.b17
+************************************************************
+** New orientations (set to internal radiation calculation): S_0_90 W_90_90 N_180_90 E_270_90 H_0_180
+C:\Trnsys17\Building\trnsIDF\NewFileTemplate.d17
+** Reading deck template: C:\Trnsys17\Building\trnsIDF\NewFileTemplate.d17
+************************************************************
+** Closing BUI template: NewBuiTemplate.b17
+** Closing B17 File: C:\Users\GDeMichele\Desktop\documentation type_DLT\simulation\Tutorial.b17

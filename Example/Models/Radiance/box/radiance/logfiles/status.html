@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+
+        <title>Export Progress</title>
+
+        <link rel="stylesheet" href="file://C:/Program Files (x86)/Google/Google SketchUp 8/Plugins/su2radlib/html/css/dialog.css" type="text/css" media="print, projection, screen">
+    
+        <script type="text/javascript">
+            
+            // this function is based on code by Mark Wilton-Jones
+            // www.howtocreate.co.uk/tutorials/javascript/browserwindow
+            function setSmallSize() {
+                var myWidth = 0, myHeight = 0;
+                if( typeof( window.innerWidth ) == 'number' ) {
+                    //Non-IE
+                    myWidth = window.innerWidth;
+                    myHeight = window.innerHeight;
+                } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+                    //IE 6+ in 'standards compliant mode'
+                    myWidth = document.documentElement.clientWidth;
+                    myHeight = document.documentElement.clientHeight;
+                } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+                    //IE 4 compatible
+                    myWidth = document.body.clientWidth;
+                    myHeight = document.body.clientHeight;
+                }
+                window.resizeBy(450-myWidth, 250-myHeight);
+            }
+            
+        </script>
+    </head>
+    <body onload="setSmallSize()">
+        <h3>
+            Export Status
+        </h3>
+        <div class="exportStatusFinal">
+            <img src="file://C:/Program Files (x86)/Google/Google SketchUp 8/Plugins/su2radlib/html/css/export_success.png">
+        </div>
+        <div class="exportStatus">
+            <div class="gridLabel"><span class="highlightWarn">status:</span></div><div class="gridCell"><span class="highlightWarn">finished (warnings)</span></div><div class="gridLabel">2</div><div class="gridCell">materials</div><div class="gridLabel">8</div><div class="gridCell">faces</div><div class="gridLabel">12</div><div class="gridCell">files</div><div class="gridLabel">2</div><div class="gridCell">warnings</div><div class="gridLabel"><span class="highlight">time:</span></div><div class="gridCell"><span class="highlight">0 sec</span></div>
+        </div>
+        <div style="clear:both; display:none">
+            <span style="font-size:10px;" id="current"></span>
+        </div>
+    </body>
+</html>

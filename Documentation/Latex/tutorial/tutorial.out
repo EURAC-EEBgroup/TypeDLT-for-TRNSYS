@@ -1,0 +1,8 @@
+\BOOKMARK [0][-]{chapter.1}{Creating a simple model}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Draw a model}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Export the model with su2rad}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Defining Custom Radiance Materials}{section.1.2}% 4
+\BOOKMARK [0][-]{chapter.2}{Creating the CFS model}{}% 5
+\BOOKMARK [0][-]{chapter.3}{Manual tweaks}{}% 6
+\BOOKMARK [1][-]{section.3.1}{Checking of the surface normal direction}{chapter.3}% 7
+\BOOKMARK [0][-]{chapter.4}{Implementation in TRNSYS}{}% 8

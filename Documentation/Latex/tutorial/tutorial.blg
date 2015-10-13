@@ -1,0 +1,10 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: tutorial.aux
+The style file: biblatex.bst
+I couldn't open database file Bibliografia.bib
+---line 20 of file tutorial.aux
+ : \bibdata{tutorial-blx,Bibliografia
+ :                                   }
+I'm skipping whatever remains of this command
+Database file #1: tutorial-blx.bib
+Biblatex version: 2.9
+(There was 1 error message)

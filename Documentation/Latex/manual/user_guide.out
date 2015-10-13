@@ -1,0 +1,16 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{TRNSYS}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Radiance}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Three-Phase Method}{section.1.2}% 4
+\BOOKMARK [0][-]{chapter.2}{TypeDLT}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Description and functionality}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Installation}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{Radiance}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.2}{Perl environment for OS Windows}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.3}{TypeDLT}{section.2.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Tool Chain}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.3.1}{BSDF data generation - WINDOW 7.3}{section.2.3}% 12
+\BOOKMARK [2][-]{subsection.2.3.2}{Google SketchUp}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.3}{Manual tweaks}{section.2.3}% 14
+\BOOKMARK [1][-]{section.2.4}{TRNSYS}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.4.1}{Radiance parameters}{section.2.4}% 16

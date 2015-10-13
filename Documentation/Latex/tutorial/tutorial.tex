@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper,oneside]{book}
+
+\usepackage[english]{babel}
+
+%%\usepackage{times}
+\usepackage{helvet}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the
+
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage[Sonny]{fncychap}
+\usepackage{hyperref} % Indice nel pdf, da togliere per la stampa perché crea conflitto.
+\usepackage{subfigure}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+\usepackage{rotating}
+\usepackage{color}
+\usepackage{gensymb}
+\usepackage{fixltx2e}
+\usepackage[citestyle=numeric,hyperref,natbib=true,backend=bibtex]{biblatex}
+\renewcommand\nameyeardelim{, }
+
+
+%\addbibresource{Bibliografia}
+%\pagestyle{empty}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=30mm,
+ right=35mm,
+ top=30mm,
+ bottom=40mm,
+ }
+
+
+\newcommand{\tb}{\textsubscript}
+\newcommand{\ts}{\textsuperscript}
+
+\graphicspath{{./immagini/}}
+
+
+\begin{document}
+
+
+%\input{chapter/frontespizio}
+
+%DA DECOMMENTARE AL MOMENTO DELLA STAMPA INTEGRALE
+%\newpage
+%\null
+%\thispagestyle{empty}
+%\newpage
+
+\pagestyle{fancy} 
+\fancyhf{}%cancella tutti i campi 
+%\headsep 2cm %altrimenti si sovrappone il testo alla hdr 
+\fancyhead[R]{\includegraphics*[width=3cm]{logo}% non c'è l'ambiente figure.
+} 
+\fancyhead[L]{\large \textsc{TypeDLT - Tutorial} }
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.1pt}
+
+
+%\listoffigures
+%\listoftables
+
+%\input{chapter/sommario}
+
+
+%\mainmatter
+\input{chapter/frontespizio}
+
+\tableofcontents
+
+\input{chapter/Introduction}
+\input{chapter/Creating_simple_mode}
+\input{chapter/Creating_CFS_model}
+\input{chapter/Manual_tweaks}
+\input{chapter/Trnsys}
+
+
+%\printbibliography
+
+\end{document}

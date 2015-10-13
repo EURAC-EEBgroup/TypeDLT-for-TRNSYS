@@ -1,0 +1,1513 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.29)  30 SEP 2015 14:57
+entering extended mode
+**tutorial.tex
+
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\tutorial.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk11.clo"
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen104
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count102
+\LTcapwidth=\dimen115
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count103
+\LT@rows=\count104
+\c@LT@tables=\count105
+\c@LT@chunks=\count106
+\LT@p@ftn=\toks22
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen116
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks23
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+\TX@col@width=\dimen119
+\TX@old@table=\dimen120
+\TX@old@col=\dimen121
+\TX@target=\dimen122
+\TX@delta=\dimen123
+\TX@cols=\count107
+\TX@ftn=\toks24
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip52
+\f@ncyO@elh=\skip53
+\f@ncyO@erh=\skip54
+\f@ncyO@olh=\skip55
+\f@ncyO@orh=\skip56
+\f@ncyO@elf=\skip57
+\f@ncyO@erf=\skip58
+\f@ncyO@olf=\skip59
+\f@ncyO@orf=\skip60
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count108
+\float@exts=\toks25
+\float@box=\box32
+\@float@everytoks=\toks26
+\@floatcapt=\box33
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\fncychap\fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip61
+\mylen=\skip62
+\myhi=\skip63
+\px=\skip64
+\py=\skip65
+\pyy=\skip66
+\pxx=\skip67
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen124
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count111
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count112
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen125
+\Fld@menulength=\count113
+\Field@Width=\dimen126
+\Fld@charsize=\dimen127
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count114
+\c@Item=\count115
+\c@Hfootnote=\count116
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count117
+\c@bookmark@seq@number=\count118
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip68
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.s
+ty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip69
+\subfigcapskip=\skip70
+\subfigcaptopadj=\dimen128
+\subfigbottomskip=\skip71
+\subfigcapmargin=\dimen129
+\subfiglabelskip=\skip72
+\c@subfigure=\count119
+\c@lofdepth=\count120
+\c@subtable=\count121
+\c@lotdepth=\count122
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.c
+fg)
+\subfig@top=\skip73
+\subfig@bottom=\skip74
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2015/04/15 v0.4w Insert pages of external PDF documents (AM)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count123
+\calc@Bcount=\count124
+\calc@Adimen=\dimen130
+\calc@Bdimen=\dimen131
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count125
+\calc@Cskip=\skip77
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2015/04/15 v0.4w Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box34
+\AM@toc@title=\toks27
+\c@AM@survey=\count126
+\AM@templatesizebox=\box35
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box36
+\beforetitleunit=\skip78
+\aftertitleunit=\skip79
+\ttl@plus=\dimen132
+\ttl@minus=\dimen133
+\ttl@toksa=\toks28
+\titlewidth=\dimen134
+\titlewidthlast=\dimen135
+\titlewidthfirst=\dimen136
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\rotating\rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count127
+\rotFPtop=\skip80
+\rotFPbot=\skip81
+\rot@float@box=\box37
+\rot@mess@toks=\toks29
+) (C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\was\gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+Package: biblatex 2014/06/25 v2.9a programmable bibliographies (PK/JW/AB)
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex1.st
+y
+Package: biblatex1 2014/06/25 v2.9a programmable bibliographies (bibtex) (PK/JW
+/AB)
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2015/03/19 v2.1d e-TeX tools for LaTeX (JAW)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count128
+)
+\etb@tempcnta=\count129
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count130
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count131
+\c@listtotal=\count132
+\c@listcount=\count133
+\c@liststart=\count134
+\c@liststop=\count135
+\c@citecount=\count136
+\c@citetotal=\count137
+\c@multicitecount=\count138
+\c@multicitetotal=\count139
+\c@instcount=\count140
+\c@maxnames=\count141
+\c@minnames=\count142
+\c@maxitems=\count143
+\c@minitems=\count144
+\c@citecounter=\count145
+\c@savedcitecounter=\count146
+\c@uniquelist=\count147
+\c@uniquename=\count148
+\c@refsection=\count149
+\c@refsegment=\count150
+\c@maxextrayear=\count151
+\c@maxextraalpha=\count152
+\c@abbrvpenalty=\count153
+\c@highnamepenalty=\count154
+\c@lownamepenalty=\count155
+\c@maxparens=\count156
+\c@parenlevel=\count157
+\blx@tempcnta=\count158
+\blx@tempcntb=\count159
+\blx@tempcntc=\count160
+\blx@maxsection=\count161
+\blx@maxsegment=\count162
+\blx@notetype=\count163
+\blx@parenlevel@text=\count164
+\blx@parenlevel@foot=\count165
+\labelnumberwidth=\skip82
+\labelalphawidth=\skip83
+\shorthandwidth=\skip84
+\biblabelsep=\skip85
+\bibitemsep=\skip86
+\bibnamesep=\skip87
+\bibinitsep=\skip88
+\bibparsep=\skip89
+\bibhang=\skip90
+\blx@auxin=\read1
+\blx@auxout=\write3
+\c@mincomprange=\count166
+\c@maxcomprange=\count167
+\c@mincompwidth=\count168
+\c@labelname=\count169
+\c@savedlabelname=\count170
+\c@author=\count171
+\c@savedauthor=\count172
+\c@shortauthor=\count173
+\c@savedshortauthor=\count174
+\c@editor=\count175
+\c@savededitor=\count176
+\c@editora=\count177
+\c@savededitora=\count178
+\c@editorb=\count179
+\c@savededitorb=\count180
+\c@editorc=\count181
+\c@savededitorc=\count182
+\c@shorteditor=\count183
+\c@savedshorteditor=\count184
+\c@bookauthor=\count185
+\c@savedbookauthor=\count186
+\c@translator=\count187
+\c@savedtranslator=\count188
+\c@annotator=\count189
+\c@savedannotator=\count190
+\c@commentator=\count191
+\c@savedcommentator=\count192
+\c@introduction=\count193
+\c@savedintroduction=\count194
+\c@foreword=\count195
+\c@savedforeword=\count196
+\c@afterword=\count197
+\c@savedafterword=\count198
+\c@holder=\count199
+\c@savedholder=\count200
+\c@namea=\count201
+\c@savednamea=\count202
+\c@nameb=\count203
+\c@savednameb=\count204
+\c@namec=\count205
+\c@savednamec=\count206
+\c@institution=\count207
+\c@savedinstitution=\count208
+\c@language=\count209
+\c@savedlanguage=\count210
+\c@location=\count211
+\c@savedlocation=\count212
+\c@organization=\count213
+\c@savedorganization=\count214
+\c@origlocation=\count215
+\c@savedoriglocation=\count216
+\c@origpublisher=\count217
+\c@savedorigpublisher=\count218
+\c@pageref=\count219
+\c@savedpageref=\count220
+\c@publisher=\count221
+\c@savedpublisher=\count222
+\c@lista=\count223
+\c@savedlista=\count224
+\c@listb=\count225
+\c@savedlistb=\count226
+\c@listc=\count227
+\c@savedlistc=\count228
+\c@listd=\count229
+\c@savedlistd=\count230
+\c@liste=\count231
+\c@savedliste=\count232
+\c@listf=\count233
+Normal \count register pool exhausted, switching to extended pool.
+\c@savedlistf=\count277
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.d
+ef
+File: blx-compat.def 2014/06/25 v2.9a biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count278
+\c@textcitetotal=\count279
+\c@textcitemaxnames=\count280
+\c@biburlnumpenalty=\count281
+\c@biburlucpenalty=\count282
+\c@biburllcpenalty=\count283
+\c@smartand=\count284
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-natbib.d
+ef
+File: blx-natbib.def 2014/06/25 v2.9a biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.
+bbx
+File: numeric.bbx 2014/06/25 v2.9a biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard
+.bbx
+File: standard.bbx 2014/06/25 v2.9a biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count285
+\c@bbx:relatedtotal=\count286
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\numeric.
+cbx
+File: numeric.cbx 2014/06/25 v2.9a biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg
+File: biblatex.cfg 
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
+\Gm@bindingoffset=\dimen137
+\Gm@wd@mp=\dimen138
+\Gm@odd@mp=\dimen139
+\Gm@even@mp=\dimen140
+\Gm@layoutwidth=\dimen141
+\Gm@layoutheight=\dimen142
+\Gm@layouthoffset=\dimen143
+\Gm@layoutvoffset=\dimen144
+\Gm@dimlist=\toks30
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (597.50787pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (845.04684pt) is ignored.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\english.
+lbx
+File: english.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count290
+\@quotereset=\count291
+
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\tutorial.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 52.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen145
+\scratchbox=\box38
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen146
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks32
+)
+\AtBeginShipoutBox=\box39
+Package hyperref Info: Link coloring OFF on input line 52.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count298
+)
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
+
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\tutorial.out")
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\tutorial.out")
+\@outlinefile=\write4
+LaTeX Info: Redefining \celsius on input line 52.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 52.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 52.
+Package gensymb Info: Using \Omega for \ohm on input line 52.
+
+Package gensymb Warning: Not defining \micro.
+
+Package biblatex Info: Input encoding 'latin1' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'latin1'.
+
+Package biblatex Warning: Data encoding is 'latin1'.
+(biblatex)                Use backend=bibtex8 or backend=biber.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'tutorial.bbl' found.
+
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\tutorial.bbl")
+Package biblatex Info: Reference section=0 on input line 52.
+Package biblatex Info: Reference segment=0 on input line 52.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 412.56497pt, 99.58464pt)
+* v-part:(T,H,B)=(85.35826pt, 645.87756pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=412.56497pt
+* \textheight=645.87756pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-18.78552pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=53.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\chapter/frontespi
+zio.tex" <./immagini/logo.png, id=35, 96.8418pt x 26.499pt>
+File: ./immagini/logo.png Graphic file (type png)
+
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 11.
+(pdftex.def)             Requested size: 206.28249pt x 56.45293pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+{C:/Users/GDeMichele/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <Q:/6_P
+rojects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents_Literatur
+e/documentation type_DLT/Documentation/Latex/tutorial/immagini/logo.png>])
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\tutorial.toc"
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 5.
+)
+\tf@toc=\write5
+
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\chapter/Introduct
+ion.tex"pdfTeX warning (ext4): destination with the same identifier (name{page.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            *{Introduction} [1
+
+])
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\chapter/Creating_
+simple_mode.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+[2
+
+]
+Chapter 1.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<./immagini/su2rad.png, id=66, 1120.6668pt x 538.2869pt>
+File: ./immagini/su2rad.png Graphic file (type png)
+
+<use ./immagini/su2rad.png>
+Package pdftex.def Info: ./immagini/su2rad.png used on input line 14.
+(pdftex.def)             Requested size: 371.30595pt x 178.34158pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 20.
+ [3
+
+ <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents_L
+iterature/documentation type_DLT/Documentation/Latex/tutorial/immagini/su2rad.p
+ng>]
+<./immagini/box2.png, id=78, 576.2328pt x 449.5194pt>
+File: ./immagini/box2.png Graphic file (type png)
+
+<use ./immagini/box2.png>
+Package pdftex.def Info: ./immagini/box2.png used on input line 24.
+(pdftex.def)             Requested size: 371.30595pt x 289.65997pt.
+
+<./immagini/boxWin2.png, id=80, 842.54774pt x 606.46574pt>
+File: ./immagini/boxWin2.png Graphic file (type png)
+
+<use ./immagini/boxWin2.png>
+Package pdftex.def Info: ./immagini/boxWin2.png used on input line 32.
+(pdftex.def)             Requested size: 371.30595pt x 267.26216pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./immagini/logo.png Graphic file (type png)
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 41.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents
+_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/box2.p
+ng>]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+<./immagini/layer.png, id=94, 1053.2148pt x 751.88596pt>
+File: ./immagini/layer.png Graphic file (type png)
+
+<use ./immagini/layer.png>
+Package pdftex.def Info: ./immagini/layer.png used on input line 52.
+(pdftex.def)             Requested size: 371.30595pt x 265.07999pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./immagini/insideview.png, id=95, 841.34325pt x 563.10374pt>
+File: ./immagini/insideview.png Graphic file (type png)
+
+<use ./immagini/insideview.png>
+Package pdftex.def Info: ./immagini/insideview.png used on input line 59.
+(pdftex.def)             Requested size: 371.30595pt x 248.51393pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 62.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents
+_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/boxWin
+2.png>]
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 67.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents
+_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/layer.
+png> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documen
+ts_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/insi
+deview.png>] <./immagini/export2.png, id=122, 557.08125pt x 393.8715pt>
+File: ./immagini/export2.png Graphic file (type png)
+
+<use ./immagini/export2.png>
+Package pdftex.def Info: ./immagini/export2.png used on input line 79.
+(pdftex.def)             Requested size: 202.15909pt x 142.9295pt.
+
+<./immagini/materials.png, id=123, 635.37375pt x 437.83575pt>
+File: ./immagini/materials.png Graphic file (type png)
+
+<use ./immagini/materials.png>
+Package pdftex.def Info: ./immagini/materials.png used on input line 82.
+(pdftex.def)             Requested size: 210.40587pt x 144.9873pt.
+
+Overfull \hbox (8.40936pt too wide) in paragraph at lines 79--83
+[][] [][] 
+ []
+
+<./immagini/exported.png, id=125, 84.315pt x 177.66376pt>
+File: ./immagini/exported.png Graphic file (type png)
+
+<use ./immagini/exported.png>
+Package pdftex.def Info: ./immagini/exported.png used on input line 90.
+(pdftex.def)             Requested size: 82.51173pt x 173.86801pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 95.
+File: ./immagini/logo.png Graphic file (type png)
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 98.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents
+_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/export
+2.png> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Docum
+ents_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/ma
+terials.png>]
+Overfull \hbox (6.42815pt too wide) in paragraph at lines 108--111
+$\T1/cmtt/m/n/10.95 gov / radiance / refer / ray . html # Materials$[] \T1/phv/
+m/n/10.95 and []$\T1/cmtt/m/n/10.95 http : / / www . artifice . com / radiance 
+/$
+ []
+
+File: ./immagini/logo.png Graphic file (type png)
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 117.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents
+_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/export
+ed.png>] <./immagini/materialrad.png, id=156, 526.3665pt x 450.483pt>
+File: ./immagini/materialrad.png Graphic file (type png)
+
+<use ./immagini/materialrad.png>
+Package pdftex.def Info: ./immagini/materialrad.png used on input line 124.
+(pdftex.def)             Requested size: 288.79422pt x 247.16838pt.
+
+<./immagini/materialexported.png, id=161, 519.1395pt x 384.2355pt>
+File: ./immagini/materialexported.png Graphic file (type png)
+
+<use ./immagini/materialexported.png>
+Package pdftex.def Info: ./immagini/materialexported.png used on input line 139
+.
+(pdftex.def)             Requested size: 288.79422pt x 213.75157pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 142.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents
+_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/materi
+alrad.png>] <./immagini/combine.png, id=172, 296.7888pt x 310.2792pt>
+File: ./immagini/combine.png Graphic file (type png)
+
+<use ./immagini/combine.png>
+Package pdftex.def Info: ./immagini/combine.png used on input line 146.
+(pdftex.def)             Requested size: 165.02347pt x 172.5242pt.
+
+<./immagini/materialmodif.png, id=173, 519.74174pt x 408.92775pt>
+File: ./immagini/materialmodif.png Graphic file (type png)
+
+<use ./immagini/materialmodif.png>
+Package pdftex.def Info: ./immagini/materialmodif.png used on input line 152.
+(pdftex.def)             Requested size: 288.79422pt x 227.22589pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\chapter/Creating_
+CFS_model.tex"
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/mater
+ialexported.png> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGro
+up/7_Documents_Literature/documentation type_DLT/Documentation/Latex/tutorial/i
+mmagini/combine.png>]
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/mater
+ialmodif.png>]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+<./immagini/preference.png, id=192, 398.99063pt x 246.9225pt>
+File: ./immagini/preference.png Graphic file (type png)
+
+<use ./immagini/preference.png>
+Package pdftex.def Info: ./immagini/preference.png used on input line 10.
+(pdftex.def)             Requested size: 288.79422pt x 178.7335pt.
+ [12
+
+ <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents_L
+iterature/documentation type_DLT/Documentation/Latex/tutorial/immagini/preferen
+ce.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+<./immagini/windowglass.png, id=204, 666.0885pt x 470.9595pt>
+File: ./immagini/windowglass.png Graphic file (type png)
+
+<use ./immagini/windowglass.png>
+Package pdftex.def Info: ./immagini/windowglass.png used on input line 21.
+(pdftex.def)             Requested size: 371.30595pt x 262.53542pt.
+
+<./immagini/window73_2.png, id=206, 834.9594pt x 644.45728pt>
+File: ./immagini/window73_2.png Graphic file (type png)
+
+<use ./immagini/window73_2.png>
+Package pdftex.def Info: ./immagini/window73_2.png used on input line 28.
+(pdftex.def)             Requested size: 371.30595pt x 286.59082pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./immagini/shading.png, id=208, 557.08125pt x 501.072pt>
+File: ./immagini/shading.png Graphic file (type png)
+
+<use ./immagini/shading.png>
+Package pdftex.def Info: ./immagini/shading.png used on input line 36.
+(pdftex.def)             Requested size: 371.30595pt x 333.98093pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (48.59999pt too wide) in paragraph at lines 40--41
+\T1/phv/m/n/10.95 sys-tem as in Fig-ure []2.5[] and name it with a name easy to
+ rec-og-nize (e.g. 2pan_lowe_venetian45). 
+ []
+
+<./immagini/window73.png, id=211, 746.79pt x 473.3685pt>
+File: ./immagini/window73.png Graphic file (type png)
+
+<use ./immagini/window73.png>
+Package pdftex.def Info: ./immagini/window73.png used on input line 44.
+(pdftex.def)             Requested size: 371.30595pt x 235.36185pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\chapter/Manual_tw
+eaks.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 53--1
+
+ []
+
+File: ./immagini/logo.png Graphic file (type png)
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/windo
+wglass.png>]
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/windo
+w73_2.png>]
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/shadi
+ng.png> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Docu
+ments_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/w
+indow73.png>]
+Chapter 3.
+<./immagini/zone1.png, id=241, 363.759pt x 218.61674pt>
+File: ./immagini/zone1.png Graphic file (type png)
+
+<use ./immagini/zone1.png>
+Package pdftex.def Info: ./immagini/zone1.png used on input line 7.
+(pdftex.def)             Requested size: 288.79422pt x 173.56596pt.
+ [16
+
+ <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents_L
+iterature/documentation type_DLT/Documentation/Latex/tutorial/immagini/zone1.pn
+g>]
+<./immagini/win.png, id=250, 344.0052pt x 317.5062pt>
+File: ./immagini/win.png Graphic file (type png)
+ <use ./immagini/win.png>
+Package pdftex.def Info: ./immagini/win.png used on input line 37.
+(pdftex.def)             Requested size: 144.40025pt x 133.27417pt.
+
+<./immagini/wingroup.png, id=251, 344.0052pt x 502.9992pt>
+File: ./immagini/wingroup.png Graphic file (type png)
+
+<use ./immagini/wingroup.png>
+Package pdftex.def Info: ./immagini/wingroup.png used on input line 40.
+(pdftex.def)             Requested size: 144.40025pt x 211.13542pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 45.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/win.p
+ng> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/wingr
+oup.png>] <./immagini/windraw.png, id=268, 524.1984pt x 369.0588pt>
+File: ./immagini/windraw.png Graphic file (type png)
+
+<use ./immagini/windraw.png>
+Package pdftex.def Info: ./immagini/windraw.png used on input line 49.
+(pdftex.def)             Requested size: 247.54149pt x 174.27983pt.
+
+<./immagini/winvd.png, id=269, 343.5234pt x 126.7134pt>
+File: ./immagini/winvd.png Graphic file (type png)
+
+<use ./immagini/winvd.png>
+Package pdftex.def Info: ./immagini/winvd.png used on input line 53.
+(pdftex.def)             Requested size: 123.77074pt x 45.65544pt.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 60.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+
+<./immagini/window_name.png, id=271, 456.7464pt x 235.6002pt>
+File: ./immagini/window_name.png Graphic file (type png)
+
+<use ./immagini/window_name.png>
+Package pdftex.def Info: ./immagini/window_name.png used on input line 68.
+(pdftex.def)             Requested size: 288.79422pt x 148.97174pt.
+
+<./immagini/tutorial2.png, id=273, 352.1958pt x 233.1912pt>
+File: ./immagini/tutorial2.png Graphic file (type png)
+
+<use ./immagini/tutorial2.png>
+Package pdftex.def Info: ./immagini/tutorial2.png used on input line 76.
+(pdftex.def)             Requested size: 247.54149pt x 163.90166pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 78.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/windr
+aw.png> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Docu
+ments_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/w
+invd.png> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Do
+cuments_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini
+/window_name.png>] <./immagini/grid.png, id=289, 263.7855pt x 169.23225pt>
+File: ./immagini/grid.png Graphic file (type png)
+
+<use ./immagini/grid.png>
+Package pdftex.def Info: ./immagini/grid.png used on input line 85.
+(pdftex.def)             Requested size: 206.28249pt x 132.34148pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 101.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/tutor
+ial2.png> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Do
+cuments_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini
+/grid.png>] <./immagini/rvu.png, id=304, 523.9575pt x 287.27325pt>
+File: ./immagini/rvu.png Graphic file (type png)
+
+<use ./immagini/rvu.png>
+Package pdftex.def Info: ./immagini/rvu.png used on input line 126.
+(pdftex.def)             Requested size: 288.79422pt x 158.34268pt.
+
+<./immagini/rvublack.png, id=305, 522.753pt x 286.671pt>
+File: ./immagini/rvublack.png Graphic file (type png)
+
+<use ./immagini/rvublack.png>
+Package pdftex.def Info: ./immagini/rvublack.png used on input line 129.
+(pdftex.def)             Requested size: 288.79422pt x 158.3694pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\chapter/Trnsys.te
+x"
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/rvu.p
+ng> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/rvubl
+ack.png>]
+Chapter 4.
+<./immagini/deck.png, id=327, 614.89725pt x 349.90726pt>
+File: ./immagini/deck.png Graphic file (type png)
+
+<use ./immagini/deck.png>
+Package pdftex.def Info: ./immagini/deck.png used on input line 10.
+(pdftex.def)             Requested size: 412.56497pt x 234.773pt.
+ [22
+
+ <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Documents_L
+iterature/documentation type_DLT/Documentation/Latex/tutorial/immagini/deck.png
+>]
+<./immagini/controlinput.png, id=336, 260.172pt x 89.133pt>
+File: ./immagini/controlinput.png Graphic file (type png)
+
+<use ./immagini/controlinput.png>
+Package pdftex.def Info: ./immagini/controlinput.png used on input line 27.
+(pdftex.def)             Requested size: 247.54149pt x 84.8105pt.
+
+<./immagini/windowtrnsys.png, id=340, 820.86674pt x 546.24075pt>
+File: ./immagini/windowtrnsys.png Graphic file (type png)
+
+<use ./immagini/windowtrnsys.png>
+Package pdftex.def Info: ./immagini/windowtrnsys.png used on input line 43.
+(pdftex.def)             Requested size: 288.79422pt x 192.17899pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 45.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/contr
+olinput.png>] <./immagini/gain.png, id=351, 692.5875pt x 501.67426pt>
+File: ./immagini/gain.png Graphic file (type png)
+
+<use ./immagini/gain.png>
+Package pdftex.def Info: ./immagini/gain.png used on input line 49.
+(pdftex.def)             Requested size: 288.79422pt x 209.19373pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 55.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/windo
+wtrnsys.png> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7
+_Documents_Literature/documentation type_DLT/Documentation/Latex/tutorial/immag
+ini/gain.png>] <./immagini/vmx.png, id=364, 503.481pt x 327.02174pt>
+File: ./immagini/vmx.png Graphic file (type png)
+
+<use ./immagini/vmx.png>
+Package pdftex.def Info: ./immagini/vmx.png used on input line 60.
+(pdftex.def)             Requested size: 185.65297pt x 120.58696pt.
+
+<./immagini/dmx.png, id=365, 502.87875pt x 328.8285pt>
+File: ./immagini/dmx.png Graphic file (type png)
+
+<use ./immagini/dmx.png>
+Package pdftex.def Info: ./immagini/dmx.png used on input line 63.
+(pdftex.def)             Requested size: 185.65297pt x 121.39369pt.
+
+<./immagini/3pm.png, id=367, 502.2765pt x 339.06676pt>
+File: ./immagini/3pm.png Graphic file (type png)
+
+<use ./immagini/3pm.png>
+Package pdftex.def Info: ./immagini/3pm.png used on input line 71.
+(pdftex.def)             Requested size: 206.28249pt x 139.25108pt.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 93.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25 <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/vmx.p
+ng> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/dmx.p
+ng> <Q:/6_Projects/02_4_Small_Projects/104_TransparentComponentGroup/7_Document
+s_Literature/documentation type_DLT/Documentation/Latex/tutorial/immagini/3pm.p
+ng>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+
+("Q:\6_Projects\02_4_Small_Projects\104_TransparentComponentGroup\7_Documents_L
+iterature\documentation type_DLT\Documentation\Latex\tutorial\tutorial.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package rerunfilecheck Info: File `tutorial.out' has not changed.
+(rerunfilecheck)             Checksum: 4028DE17910405C8508C6B0654DB4042;535.
+Package logreq Info: Writing requests to 'tutorial.run.xml'.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
+ ) 
+Here is how much of TeX's memory you used:
+ 14160 strings out of 493921
+ 219733 string characters out of 3144861
+ 420789 words of memory out of 3000000
+ 17092 multiletter control sequences out of 15000+200000
+ 45466 words of font info for 60 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 37i,15n,43p,945b,1487s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users
+\GDeMichele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt109
+5.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on tutorial.pdf (26 pages, 2267988 bytes).
+PDF statistics:
+ 460 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+

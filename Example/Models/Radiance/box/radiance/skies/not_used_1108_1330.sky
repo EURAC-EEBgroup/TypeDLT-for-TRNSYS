@@ -1,0 +1,24 @@
+
+## sky description for not used, USA
+##   latitude:  0.000
+##   longitude: 0.000
+
+!gensky 11 08 13:30 -c -a 0.000 -o -0.000 -m -0 -g 0.2 -t 1.7
+
+skyfunc glow skyglow
+0
+0
+4 1.000 1.000 1.000 0
+skyglow source sky
+0
+0
+4 0 0 1 180
+
+skyfunc glow groundglow
+0
+0
+4 1.000 1.000 1.000 0
+groundglow source ground
+0
+0
+4 0 0 -1 180

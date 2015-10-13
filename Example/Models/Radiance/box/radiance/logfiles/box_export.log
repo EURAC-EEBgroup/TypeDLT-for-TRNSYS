@@ -1,0 +1,6 @@
+###  su2rad.rb export  ###
+###  Wed Jun 10 16:54:57 2015  ###
+[W] 'convert' not found => disabling 'textures' options
+[W] texture converters not available; no conversion
+###  finished: Wed Jun 10 16:55:08 +0200 2015  ###
+###  status: running (warnings) (groups=0, faces=8)  ###

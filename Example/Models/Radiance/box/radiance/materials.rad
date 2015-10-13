@@ -1,0 +1,23 @@
+## materials.rad
+
+## default material
+void plastic sketchup_default_material
+0
+0
+5 0.4 0.4 0.4 0 0
+
+## undefined material ceiling_08
+void alias ceiling_08 sketchup_default_material
+
+## undefined material floor_02
+void alias floor_02 sketchup_default_material
+
+## undefined material glass_x
+void alias glass_x sketchup_default_material
+
+## undefined material ground_025
+void alias ground_025 sketchup_default_material
+
+## undefined material wall_05
+void alias wall_05 sketchup_default_material
+

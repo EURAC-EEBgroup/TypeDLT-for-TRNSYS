@@ -1,0 +1,284 @@
+VERSION 17
+*******************************************************************************
+*** TRNSYS input file (deck) template for TRNSidf Version 34
+*** created by Transsolar Energietechnik GmbH 2011
+***  
+*** TRNSYS Studio uses this templatey file to generate new TRNSYS Studio project 
+*** for 3D building. 
+*** 
+*** If you have problems, questions or suggestions please contact your local 
+*** TRNSYS distributor  
+*** 
+*******************************************************************************
+
+
+*******************************************************************************
+*** Units 
+*******************************************************************************
+
+*******************************************************************************
+*** Control cards
+*******************************************************************************
+* START, STOP and STEP
+CONSTANTS 3
+START=0
+STOP=168
+STEP=1
+ 
+SIMULATION 	 START	 STOP	 STEP	! Start time	End time	Time step
+TOLERANCES 0.001 0.001			! Integration	 Convergence
+LIMITS 30 30 30				! Max iterations	Max warnings	Trace limit
+DFQ 1					! TRNSYS numerical integration solver method
+WIDTH 72				! TRNSYS output file width, number of characters
+LIST 					! NOLIST statement
+					! MAP statement
+SOLVER 0 1 1				! Solver statement	Minimum relaxation factor	Maximum relaxation factor
+NAN_CHECK 0				! Nan DEBUG statement
+OVERWRITE_CHECK 0			! Overwrite DEBUG statement
+TIME_REPORT 0			! disable time report
+EQSOLVER 0				! EQUATION SOLVER statement
+* User defined CONSTANTS
+
+
+* EQUATIONS "Wizard settings"
+* 
+EQUATIONS 8
+TURN         = 0   !Rotation angle for building used for adapting azimuth angles
+SHADE_CLOSE  = 140 * 3.6! Close blinds - radiation on facade in [W/m2 * 3.6]=[kJ/hr] 
+SHADE_OPEN   = 120 * 3.6! Open blinds - radiation on facade in [W/m2 * 3.6]=[kJ/hr]
+MAX_ISHADE   = 70/100 ! Maximum opaque fraction of internal shading device 
+MAX_ESHADE   = 70/100 ! Maximum opaque fraction of external shading device 
+IT_LIGHT_ON  = (-120) * 3.6 ! turn light on (radiaton on the horizontal in [W/mÂ² * 3.6]=[kJ/hr]
+IT_LIGHT_OFF = (- 200) * 3.6 ! turn light on (radiaton on the horizontal in [W/mÂ² * 3.6]=[kJ/hr]
+BRIGHT       = [200,1] !Input for light control
+
+
+*$UNIT_NAME Wizard settings
+*$LAYER Main
+*$POSITION 53 223
+
+*------------------------------------------------------------------------------
+* EQUATIONS "AzimuthAngles"
+* 
+EQUATIONS 7
+AA_H_0_0 = 0 + TURN ! azimuth angle of orientation
+AA_S_0_90 = 0 + TURN ! azimuth angle of orientation
+AA_W_90_90 = 90 + TURN ! azimuth angle of orientation
+AA_N_180_90 = 180 + TURN ! azimuth angle of orientation
+AA_E_270_90 = 270 + TURN ! azimuth angle of orientation
+AA_H_0_180 = 0 + TURN ! azimuth angle of orientation
+AAZM_TYPE56 = AAZM - (TURN) ! solar azimuth corrected by building rotation - Input for Type 56 sun position for SHM and ISM
+
+*
+*$UNIT_NAME AzimuthAngles
+*$LAYER Main
+*$POSITION 146 31
+
+*------------------------------------------------------------------------------
+* EQUATIONS "Radiation"
+* 
+
+*
+EQUATIONS 21
+AZEN = [15,16]
+AAZM = [15,17]
+IT_H_0_0 = [15,24]
+IB_H_0_0 = [15,30]
+AI_H_0_0 = [15,54]
+IT_S_0_90 = [15,25]
+IB_S_0_90 = [15,31]
+AI_S_0_90 = [15,55]
+IT_W_90_90 = [15,26]
+IB_W_90_90 = [15,32]
+AI_W_90_90 = [15,56]
+IT_N_180_90 = [15,27]
+IB_N_180_90 = [15,33]
+AI_N_180_90 = [15,57]
+IT_E_270_90 = [15,28]
+IB_E_270_90 = [15,34]
+AI_E_270_90 = [15,58]
+IT_H_0_180 = [15,29]
+IB_H_0_180 = [15,35]
+AI_H_0_180 = [15,59]
+*
+hour_of_day  = MOD(TIME,24)
+*$UNIT_NAME Radiation
+*$LAYER Main
+*$POSITION 245 84
+
+*------------------------------------------------------------------------------
+*------------------------------------------------------------------------------
+* Model "Weather data" (Type 15)
+* 
+
+UNIT 15 TYPE 15	 Weather data
+*$UNIT_NAME Weather data
+*$MODEL .\Weather Data Reading and Processing\Standard Format\TMY2\Type15-2.tmf
+*$POSITION 151 159
+*$LAYER Main  
+PARAMETERS 24
+2		! 1 File Type
+32		! 2 Logical unit
+5		! 3 Tilted Surface Radiation Mode
+0.2		! 4 Ground reflectance - no snow
+0.7		! 5 Ground reflectance - snow cover
+6		! 6 Number of surfaces
+1  ! Tracking mode-0
+0 ! Slope of surface-0
+AA_H_0_0 ! Azimuth of surface-0
+1  ! Tracking mode-1
+90 ! Slope of surface-1
+AA_S_0_90 ! Azimuth of surface-1
+1  ! Tracking mode-2
+90 ! Slope of surface-2
+AA_W_90_90 ! Azimuth of surface-2
+1  ! Tracking mode-3
+90 ! Slope of surface-3
+AA_N_180_90 ! Azimuth of surface-3
+1  ! Tracking mode-4
+90 ! Slope of surface-4
+AA_E_270_90 ! Azimuth of surface-4
+1  ! Tracking mode-5
+180 ! Slope of surface-5
+AA_H_0_180 ! Azimuth of surface-5
+*
+*** External files
+ ASSIGN "C:\Users\GDeMichele\Desktop\documentation type_DLT\simulation\IT-Rome-Fiumicino-162420.tm2" 32
+*|? Weather data file |1000
+*------------------------------------------------------------------------------
+*------------------------------------------------------------------------------
+
+*-------------------------------------------------------------------------------
+* Controler: Artificial light
+*-------------------------------------------------------------------------------
+*-------------------------------------------------------------------------------
+UNIT 200   TYPE 2	Controler Artificial Lighting OFF
+*$UNIT_NAME Lights
+*$POSITION 464 259
+*$LAYER Controls
+*------------------------------------------------------------------------------
+PARAMS 2
+      5		! number of oscillations of the controller;NSTK=0 is the new control strategy
+  40000		! high limit cut-out
+INPUTS 6
+* 1		In_up		In_low		cut-off		Y-in		d_up		d_low
+  0,0		IT_H_0_0		0,0		200,1	  0,0     0,0
+  0		0		0		0		IT_LIGHT_ON IT_LIGHT_OFF
+*-------------------------------------------------------------------------------
+* BUILDING
+*-------------------------------------------------------------------------------
+* Model "Building" (Type 56)
+* 
+UNIT 56 TYPE 56	 Building
+*$UNIT_NAME Building
+*$MODEL .\Loads and Structures\Multi-Zone Building\Type56.tmf
+*$POSITION 771 244
+*$LAYER Main # 
+*$#   
+PARAMETERS 3
+56		! 1 Logical unit for building description file (.bui)
+1		! 2 Star network calculation switch
+0.5		! 3 Weighting factor for operative temperature
+INPUTS 13
+15,1
+15,7
+15,4
+15,1
+15,16
+AAZM_TYPE56
+*
+IT_H_0_0
+IB_H_0_0
+AI_H_0_0
+*
+15,99
+0,0
+0,0
+BRIGHT
+*** INITIAL INPUT VALUES
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+*** External files
+ASSIGN "***.b17" 56
+*|? Building description file (*.bui) |1000
+*------------------------------------------------------------------------------
+*-------------------------------------------------------------------------------
+* OUTPUTS
+*-------------------------------------------------------------------------------
+* Model "Irradiation" (Type 65)
+* 
+UNIT 65  TYPE 65  ONLINE PLOTTER Irradiation
+*$UNIT_NAME Irradiation
+*$MODEL .\Output\Online Plotter\Online Plotter Without File\Type65d.tmf
+*$POSITION 915 84
+*$LAYER Main # 
+PARAMETERS 12
+*   1   2   3   4     5   6     7    8    9   10   11   12
+    10  10   0   3600  0   3600  1   12   0   -1    0    0
+INPUTS 20
+IT_H_0_0  IT_S_0_90  IT_W_90_90  IT_N_180_90  IT_E_270_90  IT_H_0_180  0,0  0,0  0,0  0,0  
+IB_H_0_0  IB_S_0_90  IB_W_90_90  IB_N_180_90  IB_E_270_90  IB_H_0_180  0,0  0,0  0,0  0,0  
+*** INITIAL INPUT VALUES
+IT_H_0_0  IT_S_0_90  IT_W_90_90  IT_N_180_90  IT_E_270_90  IT_H_0_180  label  label  label  label  
+IB_H_0_0  IB_S_0_90  IB_W_90_90  IB_N_180_90  IB_E_270_90  IB_H_0_180  label  label  label  label  
+LABELS 3
+"Total Incident Solar Radition [kJ/hr m²]"
+"Beam Incident Solar Radition [kJ/hr m²]"
+"Irradition"
+*------------------------------------------------------------------------------
+
+* Model "Temperature" (Type 65)
+* 
+
+UNIT 66 TYPE 65	 Temperature
+*$UNIT_NAME Temperature
+*$MODEL .\Output\Online Plotter\Online Plotter Without File\Type65d.tmf
+*$POSITION 927 244
+*$LAYER Main # 
+PARAMETERS 12
+10		! 1 Nb. of left-axis variables
+10		! 2 Nb. of right-axis variables
+-30		! 3 Left axis minimum
+80		! 4 Left axis maximum
+0.0		! 5 Right axis minimum
+5000		! 6 Right axis maximum
+1		! 7 Number of plots per simulation
+12		! 8 X-axis gridpoints
+0		! 9 Shut off Online w/o removing
+-1		! 10 Logical unit for output file
+0		! 11 Output file units
+0		! 12 Output file delimiter
+INPUTS 20
+15,1    ! Weather data:Dry bulb temperature -> 1- TAMB
+56,1 		! Building: 1- TAIR_ZONE1 ->Left axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+*
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+*
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+*
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+0,0		! [unconnected] Right axis variable
+
+*** INITIAL INPUT VALUES
+Tamb TairZone1 label label label label label label label label
+ label label   label label label label label label label label
+LABELS  3
+"Temperatures  [deg C]"
+"Temperatures  [deg C]"
+"Temperatures"
+
+*------------------------------------------------------------------------------
+END

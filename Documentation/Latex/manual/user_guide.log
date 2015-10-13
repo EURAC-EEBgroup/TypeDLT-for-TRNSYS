@@ -1,0 +1,1110 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.29)  30 SEP 2015 15:57
+entering extended mode
+**user_guide.tex
+
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\user_guide.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk11.clo"
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen104
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count102
+\LTcapwidth=\dimen115
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count103
+\LT@rows=\count104
+\c@LT@tables=\count105
+\c@LT@chunks=\count106
+\LT@p@ftn=\toks22
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen116
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks23
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
+\TX@col@width=\dimen119
+\TX@old@table=\dimen120
+\TX@old@col=\dimen121
+\TX@target=\dimen122
+\TX@delta=\dimen123
+\TX@cols=\count107
+\TX@ftn=\toks24
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip52
+\f@ncyO@elh=\skip53
+\f@ncyO@erh=\skip54
+\f@ncyO@olh=\skip55
+\f@ncyO@orh=\skip56
+\f@ncyO@elf=\skip57
+\f@ncyO@erf=\skip58
+\f@ncyO@olf=\skip59
+\f@ncyO@orf=\skip60
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count108
+\float@exts=\toks25
+\float@box=\box32
+\@float@everytoks=\toks26
+\@floatcapt=\box33
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\fncychap\fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip61
+\mylen=\skip62
+\myhi=\skip63
+\px=\skip64
+\py=\skip65
+\pyy=\skip66
+\pxx=\skip67
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen124
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count111
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count112
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen125
+\Fld@menulength=\count113
+\Field@Width=\dimen126
+\Fld@charsize=\dimen127
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count114
+\c@Item=\count115
+\c@Hfootnote=\count116
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count117
+\c@bookmark@seq@number=\count118
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip68
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.s
+ty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip69
+\subfigcapskip=\skip70
+\subfigcaptopadj=\dimen128
+\subfigbottomskip=\skip71
+\subfigcapmargin=\dimen129
+\subfiglabelskip=\skip72
+\c@subfigure=\count119
+\c@lofdepth=\count120
+\c@subtable=\count121
+\c@lotdepth=\count122
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.c
+fg)
+\subfig@top=\skip73
+\subfig@bottom=\skip74
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.sty
+Package: pdfpages 2015/04/15 v0.4w Insert pages of external PDF documents (AM)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count123
+\calc@Bcount=\count124
+\calc@Adimen=\dimen130
+\calc@Bdimen=\dimen131
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count125
+\calc@Cskip=\skip77
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\eso-pic\eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.def
+File: pppdftex.def 2015/04/15 v0.4w Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box34
+\AM@toc@title=\toks27
+\c@AM@survey=\count126
+\AM@templatesizebox=\box35
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box36
+\beforetitleunit=\skip78
+\aftertitleunit=\skip79
+\ttl@plus=\dimen132
+\ttl@minus=\dimen133
+\ttl@toksa=\toks28
+\titlewidth=\dimen134
+\titlewidthlast=\dimen135
+\titlewidthfirst=\dimen136
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\rotating\rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count127
+\rotFPtop=\skip80
+\rotFPbot=\skip81
+\rot@float@box=\box37
+\rot@mess@toks=\toks29
+) (C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\latex\was\gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count128
+\Gm@cntv=\count129
+\c@Gm@tempcnt=\count130
+\Gm@bindingoffset=\dimen137
+\Gm@wd@mp=\dimen138
+\Gm@odd@mp=\dimen139
+\Gm@even@mp=\dimen140
+\Gm@layoutwidth=\dimen141
+\Gm@layoutheight=\dimen142
+\Gm@layouthoffset=\dimen143
+\Gm@layoutvoffset=\dimen144
+\Gm@dimlist=\toks30
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (597.50787pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (845.04684pt) is ignored.
+
+
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\user_guide.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 53.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+(C:\Users\GDeMichele\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count131
+\scratchdimen=\dimen145
+\scratchbox=\box38
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen146
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks32
+)
+\AtBeginShipoutBox=\box39
+Package hyperref Info: Link coloring OFF on input line 53.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count137
+)
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
+
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\user_guide.out)
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\user_guide.out)
+\@outlinefile=\write3
+LaTeX Info: Redefining \celsius on input line 53.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 53.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 53.
+Package gensymb Info: Using \Omega for \ohm on input line 53.
+
+Package gensymb Warning: Not defining \micro.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 412.56497pt, 99.58464pt)
+* v-part:(T,H,B)=(85.35826pt, 645.87756pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=412.56497pt
+* \textheight=645.87756pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-18.78552pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=53.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\chapter/frontespizio.tex
+<./immagini/logo.png, id=67, 96.8418pt x 26.499pt>
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 11.
+(pdftex.def)             Requested size: 206.28249pt x 56.45293pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+{C:/Users/GDeMichele/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Use
+rs/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Latex/manual/im
+magini/logo.png>])
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\user_guide.toc
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 2.
+)
+\tf@toc=\write4
+
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\chapter/Introduction.texpdfTeX warning (ext4): destination with the same i
+dentifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Introduction} [1
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [2
+
+]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 14.
+
+<./immagini/3pm.png, id=110, 429.0429pt x 204.0423pt>
+File: ./immagini/3pm.png Graphic file (type png)
+ <use ./immagini/3pm.png>
+Package pdftex.def Info: ./immagini/3pm.png used on input line 27.
+(pdftex.def)             Requested size: 371.30595pt x 176.58754pt.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 45.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsphv.fd"
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+File: ./immagini/logo.png Graphic file (type png)
+
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 49.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Latex
+/manual/immagini/3pm.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 54--58
+
+ []
+
+)
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\chapter/TypeDLT.tex
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Chapter 2.
+[5
+
+] <./immagini/control.png, id=144, 420.1296pt x 460.6008pt>
+File: ./immagini/control.png Graphic file (type png)
+
+<use ./immagini/control.png>
+Package pdftex.def Info: ./immagini/control.png used on input line 31.
+(pdftex.def)             Requested size: 288.79422pt x 316.61307pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 37.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Latex
+/manual/immagini/control.png>]
+<./immagini/implem.png, id=156, 623.931pt x 396.0396pt>
+File: ./immagini/implem.png Graphic file (type png)
+
+<use ./immagini/implem.png>
+Package pdftex.def Info: ./immagini/implem.png used on input line 57.
+(pdftex.def)             Requested size: 288.79422pt x 183.31651pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 75.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Latex
+/manual/immagini/implem.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 78.
+
+Overfull \hbox (7.79666pt too wide) in paragraph at lines 95--96
+[]\T1/phv/m/n/10.95 Download mingw-get-setup.exe from []$\T1/cmtt/m/n/10.95 htt
+p : / / sourceforge . net / projects / mingw /$
+ []
+
+
+Overfull \hbox (25.86945pt too wide) in paragraph at lines 96--97
+[]\T1/phv/m/n/10.95 Open En-vi-ron-ment vari-ables (see []$\T1/cmtt/m/n/10.95 h
+ttp : / / www . computerhope . com / issues / ch000549 .$
+ []
+
+<./immagini/environment.png, id=171, 273.4215pt x 319.1925pt>
+File: ./immagini/environment.png Graphic file (type png)
+
+<use ./immagini/environment.png>
+Package pdftex.def Info: ./immagini/environment.png used on input line 103.
+(pdftex.def)             Requested size: 206.28249pt x 240.8257pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./immagini/logo.png Graphic file (type png)
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 110.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8] <./immagini/mingw.png, id=184, 366.77025pt x 186.6975pt>
+File: ./immagini/mingw.png Graphic file (type png)
+
+<use ./immagini/mingw.png>
+Package pdftex.def Info: ./immagini/mingw.png used on input line 124.
+(pdftex.def)             Requested size: 247.54149pt x 126.00682pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./immagini/logo.png Graphic file (type png)
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 150.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Latex
+/manual/immagini/environment.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+<./immagini/windowsystem.png, id=199, 1012.78375pt x 446.66875pt>
+File: ./immagini/windowsystem.png Graphic file (type png)
+
+<use ./immagini/windowsystem.png>
+Package pdftex.def Info: ./immagini/windowsystem.png used on input line 158.
+(pdftex.def)             Requested size: 330.05322pt x 145.56091pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 163.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Late
+x/manual/immagini/mingw.png> <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-
+TRNSYS/Documentation/Latex/manual/immagini/windowsystem.png>]
+<./immagini/shadinglibrary.png, id=210, 474.27188pt x 380.92313pt>
+File: ./immagini/shadinglibrary.png Graphic file (type png)
+
+<use ./immagini/shadinglibrary.png>
+Package pdftex.def Info: ./immagini/shadinglibrary.png used on input line 166.
+(pdftex.def)             Requested size: 247.54149pt x 198.81934pt.
+
+<./immagini/opticalcalc.png, id=212, 531.9875pt x 329.23pt>
+File: ./immagini/opticalcalc.png Graphic file (type png)
+
+<use ./immagini/opticalcalc.png>
+Package pdftex.def Info: ./immagini/opticalcalc.png used on input line 174.
+(pdftex.def)             Requested size: 247.54149pt x 153.19586pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+
+ []
+
+File: ./immagini/logo.png Graphic file (type png)
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 181.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Late
+x/manual/immagini/shadinglibrary.png> <C:/Users/GDeMichele/Documents/Source/Typ
+eDLT-for-TRNSYS/Documentation/Latex/manual/immagini/opticalcalc.png>]
+Overfull \hbox (1.04083pt too wide) in paragraph at lines 182--183
+$\T1/cmtt/m/n/10.95 edu / trnsys / downloads / tutorials _ and _ examples / win
+dow5 / windowtutorial . pdf$[] \T1/phv/m/n/10.95 will
+ []
+
+File: ./immagini/logo.png Graphic file (type png)
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 204.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12] <./immagini/rad.png, id=235, 259.2084pt x 197.538pt>
+File: ./immagini/rad.png Graphic file (type png)
+
+<use ./immagini/rad.png>
+Package pdftex.def Info: ./immagini/rad.png used on input line 207.
+(pdftex.def)             Requested size: 247.54149pt x 188.64867pt.
+
+<./immagini/zone1rad.png, id=237, 240.9pt x 223.0734pt>
+File: ./immagini/zone1rad.png Graphic file (type png)
+
+<use ./immagini/zone1rad.png>
+Package pdftex.def Info: ./immagini/zone1rad.png used on input line 215.
+(pdftex.def)             Requested size: 165.02347pt x 152.81456pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./immagini/zone1.png, id=240, 363.759pt x 218.61674pt>
+File: ./immagini/zone1.png Graphic file (type png)
+
+<use ./immagini/zone1.png>
+Package pdftex.def Info: ./immagini/zone1.png used on input line 229.
+(pdftex.def)             Requested size: 288.79422pt x 173.56596pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 232.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Late
+x/manual/immagini/rad.png>]
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 240.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Late
+x/manual/immagini/zone1rad.png> <C:/Users/GDeMichele/Documents/Source/TypeDLT-f
+or-TRNSYS/Documentation/Latex/manual/immagini/zone1.png>]
+<./immagini/win.png, id=259, 344.0052pt x 317.5062pt>
+File: ./immagini/win.png Graphic file (type png)
+ <use ./immagini/win.png>
+Package pdftex.def Info: ./immagini/win.png used on input line 255.
+(pdftex.def)             Requested size: 185.65297pt x 171.35388pt.
+
+<./immagini/wingroup.png, id=260, 344.0052pt x 502.9992pt>
+File: ./immagini/wingroup.png Graphic file (type png)
+
+<use ./immagini/wingroup.png>
+Package pdftex.def Info: ./immagini/wingroup.png used on input line 258.
+(pdftex.def)             Requested size: 185.65297pt x 271.46202pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 265.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Late
+x/manual/immagini/win.png> <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TR
+NSYS/Documentation/Latex/manual/immagini/wingroup.png>]
+<./immagini/windraw.png, id=280, 524.1984pt x 369.0588pt>
+File: ./immagini/windraw.png Graphic file (type png)
+
+<use ./immagini/windraw.png>
+Package pdftex.def Info: ./immagini/windraw.png used on input line 273.
+(pdftex.def)             Requested size: 247.54149pt x 174.27983pt.
+
+<./immagini/winvd.png, id=281, 343.5234pt x 126.7134pt>
+File: ./immagini/winvd.png Graphic file (type png)
+
+<use ./immagini/winvd.png>
+Package pdftex.def Info: ./immagini/winvd.png used on input line 277.
+(pdftex.def)             Requested size: 123.77074pt x 45.65544pt.
+
+<./immagini/tutorial2.png, id=282, 352.1958pt x 233.1912pt>
+File: ./immagini/tutorial2.png Graphic file (type png)
+
+<use ./immagini/tutorial2.png>
+Package pdftex.def Info: ./immagini/tutorial2.png used on input line 285.
+(pdftex.def)             Requested size: 206.28249pt x 136.58174pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 291.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Late
+x/manual/immagini/windraw.png> <C:/Users/GDeMichele/Documents/Source/TypeDLT-fo
+r-TRNSYS/Documentation/Latex/manual/immagini/winvd.png> <C:/Users/GDeMichele/Do
+cuments/Source/TypeDLT-for-TRNSYS/Documentation/Latex/manual/immagini/tutorial2
+.png>] <./immagini/grid.png, id=295, 263.7855pt x 169.23225pt>
+File: ./immagini/grid.png Graphic file (type png)
+
+<use ./immagini/grid.png>
+Package pdftex.def Info: ./immagini/grid.png used on input line 294.
+(pdftex.def)             Requested size: 206.28249pt x 132.34148pt.
+
+<./immagini/zone1data.png, id=298, 348.8232pt x 251.9814pt>
+File: ./immagini/zone1data.png Graphic file (type png)
+
+<use ./immagini/zone1data.png>
+Package pdftex.def Info: ./immagini/zone1data.png used on input line 304.
+(pdftex.def)             Requested size: 206.28249pt x 149.01761pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 322.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Late
+x/manual/immagini/grid.png> <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-T
+RNSYS/Documentation/Latex/manual/immagini/zone1data.png>]
+<./immagini/DLTint.png, id=309, 559.49025pt x 268.6035pt>
+File: ./immagini/DLTint.png Graphic file (type png)
+
+<use ./immagini/DLTint.png>
+Package pdftex.def Info: ./immagini/DLTint.png used on input line 326.
+(pdftex.def)             Requested size: 288.79422pt x 138.64998pt.
+
+<./immagini/DLTinput.png, id=311, 490.83376pt x 292.09125pt>
+File: ./immagini/DLTinput.png Graphic file (type png)
+
+<use ./immagini/DLTinput.png>
+Package pdftex.def Info: ./immagini/DLTinput.png used on input line 335.
+(pdftex.def)             Requested size: 288.79422pt x 171.86435pt.
+
+<./immagini/DLToutput.png, id=312, 490.2315pt x 293.29575pt>
+File: ./immagini/DLToutput.png Graphic file (type png)
+
+<use ./immagini/DLToutput.png>
+Package pdftex.def Info: ./immagini/DLToutput.png used on input line 343.
+(pdftex.def)             Requested size: 288.79422pt x 172.7834pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./immagini/vmx.png, id=315, 503.481pt x 327.02174pt>
+File: ./immagini/vmx.png Graphic file (type png)
+ <use ./immagini/vmx.png>
+Package pdftex.def Info: ./immagini/vmx.png used on input line 352.
+(pdftex.def)             Requested size: 185.65297pt x 120.58696pt.
+
+<./immagini/dmx.png, id=316, 502.87875pt x 328.8285pt>
+File: ./immagini/dmx.png Graphic file (type png)
+
+<use ./immagini/dmx.png>
+Package pdftex.def Info: ./immagini/dmx.png used on input line 355.
+(pdftex.def)             Requested size: 185.65297pt x 121.39369pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./immagini/3pm_t.png, id=317, 502.2765pt x 339.06676pt>
+File: ./immagini/3pm_t.png Graphic file (type png)
+
+<use ./immagini/3pm_t.png>
+Package pdftex.def Info: ./immagini/3pm_t.png used on input line 361.
+(pdftex.def)             Requested size: 206.28249pt x 139.25108pt.
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 364.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Late
+x/manual/immagini/DLTint.png> <C:/Users/GDeMichele/Documents/Source/TypeDLT-for
+-TRNSYS/Documentation/Latex/manual/immagini/DLTinput.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
+
+ []
+
+File: ./immagini/logo.png Graphic file (type png)
+<use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 367.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 <C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Late
+x/manual/immagini/DLToutput.png> <C:/Users/GDeMichele/Documents/Source/TypeDLT-
+for-TRNSYS/Documentation/Latex/manual/immagini/vmx.png> <C:/Users/GDeMichele/Do
+cuments/Source/TypeDLT-for-TRNSYS/Documentation/Latex/manual/immagini/dmx.png> 
+<C:/Users/GDeMichele/Documents/Source/TypeDLT-for-TRNSYS/Documentation/Latex/ma
+nual/immagini/3pm_t.png>])
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\chapter/Bib.tex
+File: ./immagini/logo.png Graphic file (type png)
+ <use ./immagini/logo.png>
+Package pdftex.def Info: ./immagini/logo.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.55803pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+ [21
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+
+(C:\Users\GDeMichele\Documents\Source\TypeDLT-for-TRNSYS\Documentation\Latex\ma
+nual\user_guide.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
+Package rerunfilecheck Info: File `user_guide.out' has not changed.
+(rerunfilecheck)             Checksum: CB055A2C7341FF601B13FE06DDAF6A9F;1027.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
+ ) 
+Here is how much of TeX's memory you used:
+ 9256 strings out of 493921
+ 132563 string characters out of 3144861
+ 229136 words of memory out of 3000000
+ 12264 multiletter control sequences out of 15000+200000
+ 42892 words of font info for 59 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 37i,15n,43p,832b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\GDeMichele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecit1095.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r
+.enc} <C:\Users\GDeMichele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ectt1095.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
+bols/msam7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb
+8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on user_guide.pdf (22 pages, 994247 bytes).
+PDF statistics:
+ 465 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
+

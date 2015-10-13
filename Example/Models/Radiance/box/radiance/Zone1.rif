@@ -1,0 +1,30 @@
+# scene options file for rad
+
+QUALITY=     medium
+DETAIL=      medium
+VARIABILITY= high
+INDIRECT=    2
+PENUMBRAS=   true
+
+PICTURE=     images/box
+RESOLUTION=  1916 916
+ZONE=        exterior 0 81.0 0 81.0 0 81.0
+EXPOSURE=    -2
+
+REPORT=      0 logfiles/unnamed_scene.log
+AMBFILE=     ambfiles/box.amb
+OCTREE=      octrees/box.oct
+scene=       box.rad
+
+render=      
+
+oconv=      -w
+
+materials=    materials.rad
+
+view=  unnamed_view -vf views/unnamed_view.vf
+
+objects=	skies/not_used_1108_1330.sky
+## scene object files (total=5)
+objects=	objects/ceiling_08.rad	objects/floor_02.rad	objects/glass_x.rad
+objects=	objects/ground_025.rad	objects/wall_05.rad

@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Creating a simple model}{3}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Draw a model}{3}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Export the model with su2rad}{7}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Defining Custom Radiance Materials}{8}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Adding material in the su2rad material library}{8}{Item.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Adding material in the material.rad file exported}{9}{figure.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Creating the CFS model}{12}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Manual tweaks}{16}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Checking of the surface normal direction}{19}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Implementation in TRNSYS}{22}{chapter.4}

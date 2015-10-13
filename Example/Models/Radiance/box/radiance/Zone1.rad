@@ -1,0 +1,13 @@
+!xform skies/not_used_1108_1330.sky 
+!xform ./materials.rad
+
+
+!xform objects/wall_05.rad
+
+!xform objects/ground_025.rad
+
+!xform objects/glass_x.rad
+
+!xform objects/floor_02.rad
+
+!xform objects/ceiling_08.rad

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1407509259 source:c:\users\ufilippi\trnsys_radiance\trnsys_type\new_type_dll\type153.cpp
+	<cmath>
+	<fstream>
+	"TRNSYS.h"
+	<stdlib.h>
+	<sstream>
+	<cstdlib>
+
+1291198892 c:\users\ufilippi\trnsys_radiance\trnsys_type\new_type_dll\trnsys.h
+

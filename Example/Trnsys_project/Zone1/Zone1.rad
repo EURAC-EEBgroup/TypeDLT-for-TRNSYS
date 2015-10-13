@@ -1,0 +1,7 @@
+
+!xform ./materials.rad
+
+!xform objects/wall_05.rad
+!xform objects/ground_025.rad
+!xform objects/floor_02.rad
+!xform objects/ceiling_08.rad
