@@ -43,7 +43,7 @@ __
 __
 __
 __
-15
+31
 Latitude
 SN
 1
@@ -89,36 +89,6 @@ real
 0
 lux
 Illuminance
-Solar zenith angle
-SN
-1
-
-simple
-real
-1
-+
-0
-90
-[ ; ]
-0
-0
-degrees
-Direction (Angle)
-Solar azimuth angle
-SN
-1
-
-simple
-real
-1
-+
--180
-180
-[ ; ]
-D
-0
-degrees
-Direction (Angle)
 Direct normal illuminance
 SN
 1
@@ -194,7 +164,7 @@ real
 0
 hr
 Time
-Zone ID
+ZoneID
 SN
 1
 
@@ -209,7 +179,7 @@ integer
 0
 -
 dimensionless
-Control
+Control1
 SN
 1
 
@@ -254,7 +224,7 @@ real
 0
 lux
 Illuminance
-Control
+Control1
 SN
 1
 
@@ -263,6 +233,276 @@ integer
 2
 +
 0
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control2
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control3
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control4
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control5
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control6
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control7
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control8
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control9
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control10
+SN
+1
+
+simple
+real
+1
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control2
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control3
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control4
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control5
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control6
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control7
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control8
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control9
+SN
+1
+
+simple
+real
+2
++
+-Inf
++Inf
+[ ; ]
+0
+0
+-
+dimensionless
+Control10
+SN
+1
+
+simple
+real
+2
++
+-Inf
 +Inf
 [ ; ]
 0
@@ -344,14 +584,14 @@ dimensionless
 0
 0
 0
-10
+17
 0
 
 
 1
 100
 0
-3
+12
 0
 
 

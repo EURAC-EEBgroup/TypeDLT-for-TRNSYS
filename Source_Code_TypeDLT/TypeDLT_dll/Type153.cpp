@@ -19,6 +19,7 @@
 //             This program is free software under the BSD 3-Clause License.
 //             Read the file LICENSE.txt that comes with TypeDLT for details.
 //*************************************************************************
+//
 // ***
 // *** Model Parameters
 // ***
@@ -28,15 +29,22 @@
 // ***
 //			Latitude	degrees [-90;90]
 //			Longitude	degrees [-180;180]
-//			Solar zenith angle	degrees [0;90]
-//			Solar azimuth angle	degrees [-180;180]
 //			Direct normal illuminance	lux [0;+Inf]
 //			Diffuse horizontal illuminance	lux [0;+Inf]
 //			Month	any [1;12]
 //			Day of the month	day [1;31]
 //			Hour of the day	hr [0;24]
-//			Zone ID	- [1;+Inf]
-//			Control	- [0;+Inf]
+//			ZoneID	- [1;+Inf]
+//			Control1	- [0;+Inf]
+//			Control2	- [-Inf;+Inf]
+//			Control3	- [-Inf;+Inf]
+//			Control4	- [-Inf;+Inf]
+//			Control5	- [-Inf;+Inf]
+//			Control6	- [-Inf;+Inf]
+//			Control7	- [-Inf;+Inf]
+//			Control8	- [-Inf;+Inf]
+//			Control9	- [-Inf;+Inf]
+//			Control10	- [-Inf;+Inf]
 
 // ***
 // *** Model Outputs
@@ -44,7 +52,16 @@
 //			Maximum illuminance	lux [0;+Inf]
 //			Minimum illuminance	lux [0;+Inf]
 //			Average illuminance	lux [0;+Inf]
-//			Control	- [0;+Inf]
+//			Control1	- [0;+Inf]
+//			Control2	- [-Inf;+Inf]
+//			Control3	- [-Inf;+Inf]
+//			Control4	- [-Inf;+Inf]
+//			Control5	- [-Inf;+Inf]
+//			Control6	- [-Inf;+Inf]
+//			Control7	- [-Inf;+Inf]
+//			Control8	- [-Inf;+Inf]
+//			Control9	- [-Inf;+Inf]
+//			Control10	- [-Inf;+Inf]
 
 // ***
 // *** Model Derivatives
@@ -56,71 +73,71 @@
 //
 extern "C" __declspec(dllexport)
 int TYPE153           (
-    double &time,  // the simulation time
-    double xin[],  // the array containing the component InpUTS
-    double xout[], // the array which the component fills with its appropriate OUTPUTS
-    double &t,     // the array containing the dependent variables for which the derivatives are evaluated
-    double &dtdt,  // the array containing the derivatives of T which are evaluated
-    double par[],  // the array containing the PARAMETERS of the component
-    int info[],    // the information array described in Section 3.3.3 of the manual
-    int icntrl     // the control array described in Section 3.3.4 of the manual
-)
+             double &time,  // the simulation time
+             double xin[],  // the array containing the component InpUTS
+             double xout[], // the array which the component fills with its appropriate OUTPUTS
+             double &t,     // the array containing the dependent variables for which the derivatives are evaluated
+             double &dtdt,  // the array containing the derivatives of T which are evaluated
+             double par[],  // the array containing the PARAMETERS of the component
+             int info[],    // the information array described in Section 3.3.3 of the manual
+             int icntrl     // the control array described in Section 3.3.4 of the manual
+            )
 {
-    //*************************************************************************
-    //*** TYPE implementation
-    //*** This function will be called by TRNSYS
-    //*** - once at the beginning of the simulation for initialization
-    //*** - once at the beginning of every timestep for initialization
-    //*** - once for each iteration of the TRNSYS solver
-    //*** - once at the end of each timestep for cleanup
-    //*** - once at the end of the simulation for cleanup
-    //*************************************************************************
-    //
-    //***
-    //*** WARNING: explanations in the TRNSYS manual use FORTRAN conventions for
-    //***          array indices. Subtract 1 to obtain 0-based C or C++ conventions.
-    //*** Example:
-    //***          TRNSYS manual: info(6) = number of OUTPUTS
-    //***          -> write no = info[5] to obtain number of outputs in C or C++
-    //***
-    //*** We also spell variables in lower case according to C tradition, while they
-    //*** are spelled in uppercase in the TRNSYS manual (according to FORTRAN tradition)
-    //***
+  //*************************************************************************
+  //*** TYPE implementation
+  //*** This function will be called by TRNSYS
+  //*** - once at the beginning of the simulation for initialization
+  //*** - once at the beginning of every timestep for initialization
+  //*** - once for each iteration of the TRNSYS solver
+  //*** - once at the end of each timestep for cleanup
+  //*** - once at the end of the simulation for cleanup
+  //*************************************************************************
+  //
+  //***
+  //*** WARNING: explanations in the TRNSYS manual use FORTRAN conventions for
+  //***          array indices. Subtract 1 to obtain 0-based C or C++ conventions.
+  //*** Example:
+  //***          TRNSYS manual: info(6) = number of OUTPUTS
+  //***          -> write no = info[5] to obtain number of outputs in C or C++
+  //***
+  //*** We also spell variables in lower case according to C tradition, while they
+  //*** are spelled in uppercase in the TRNSYS manual (according to FORTRAN tradition)
+  //***
 
 
 //-----------------------------------------------------------------------------------------------------------------------
 //-----------------------------------------------------------------------------------------------------------------------
 
-    // *** STANDARD TRNSYS DECLARATIONS
-    int npar= 0;   // number of parameters we expect
-    int nin= 11;   // number of inputs
-    int nout=4; // number of outputs
-    int nder=0;   // number of derivatives
-    int iunit; // UNIT number ('serial number' of the component, from the input file (the 'deck')
-    int itype; // TYPE number (component number)
-    // read context information from TRNSYS
-    // (uncomment lines as required)
-    info[5] = nout;  // number of outputs
+  // *** STANDARD TRNSYS DECLARATIONS
+  int npar= 0;   // number of parameters we expect
+  int nin= 18;   // number of inputs
+  int nout=13; // number of outputs
+  int nder=0;   // number of derivatives
+  int iunit; // UNIT number ('serial number' of the component, from the input file (the 'deck')
+  int itype; // TYPE number (component number)
+  // read context information from TRNSYS
+  // (uncomment lines as required)
+	info[5] = nout;  // number of outputs
 
-    iunit = info[0]; // UNIT number
-    itype = info[1]; // TYPE number
+	iunit = info[0]; // UNIT number
+	itype = info[1]; // TYPE number
 
-    //info[2]	; // number of INPUTS specified by the user of the component
-    //info[3]	; // number of PARAMETERS specified by the user of the component
-    //info[4]	; // number of DERIVATIVES specified by the user of the component
-    //info[5]	; // number of OUTPUTS specified by the user of the component
+	//info[2]	; // number of INPUTS specified by the user of the component
+	//info[3]	; // number of PARAMETERS specified by the user of the component
+	//info[4]	; // number of DERIVATIVES specified by the user of the component
+	//info[5]	; // number of OUTPUTS specified by the user of the component
 
-    //info[6]	; // number of iterative calls to the UNIT in the current timestep
-    // -2 = initialization
-    // -1	= initial call in simulation for this UNIT
-    //  0 = first call in timestep for this UNIT.
-    //  1	= second call in timestep for this UNIT, etc.
+  //info[6]	; // number of iterative calls to the UNIT in the current timestep
+              // -2 = initialization
+              // -1	= initial call in simulation for this UNIT
+	            //  0 = first call in timestep for this UNIT.
+              //  1	= second call in timestep for this UNIT, etc.
 
-    //info(7)	; // total number of calls to the UNIT in the simulation
-    // *** inform TRNSYS about properties of this type
-    info[8] = 0; // indicates whether TYPE depends on the passage of time: 0=no
-    info[9]	= 0; //	use to allocate storage (see Section 3.5 of the TRNSYS manual): 0 = none
-    // info[10]; // indicates number of discrete control variables (see Section 3.3.4 of the TRNSYS manual)
+	//info(7)	; // total number of calls to the UNIT in the simulation
+  // *** inform TRNSYS about properties of this type
+  info[8] = 0; // indicates whether TYPE depends on the passage of time: 0=no
+	info[9]	= 0; //	use to allocate storage (see Section 3.5 of the TRNSYS manual): 0 = none
+	// info[10]; // indicates number of discrete control variables (see Section 3.3.4 of the TRNSYS manual)
 //-----------------------------------------------------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------------------------------------------------
@@ -131,17 +148,25 @@ int TYPE153           (
 //    PARAMETERS
 
 //    INPUTS
-    double Latitude;
-    double Longitude;
-    double Solar_zenith_angle;
-    double Solar_azimuth_angle;
-    double Direct_normal_illuminance;
-    double Diffuse_horizontal_illuminance;
-    double Month;
-    double Day_of_the_month;
-    double Hour_of_the_day;
-    double Zone_ID;
-    double Control;
+      double Latitude;
+      double Longitude;
+      double Direct_normal_illuminance;
+      double Diffuse_horizontal_illuminance;
+      double Month;
+      double Day_of_the_month;
+      double Hour_of_the_day;
+      double ZoneID;
+      int Control[10];
+//      double Control1;
+//      double Control2;
+//      double Control3;
+//      double Control4;
+//      double Control5;
+//      double Control6;
+//      double Control7;
+//      double Control8;
+//      double Control9;
+//      double Control10;
 
 //-----------------------------------------------------------------------------------------------------------------------
 //       READ IN THE VALUES OF THE PARAMETERS IN SEQUENTIAL ORDER
@@ -149,76 +174,87 @@ int TYPE153           (
 //-----------------------------------------------------------------------------------------------------------------------
 //    RETRIEVE THE CURRENT VALUES OF THE INPUTS TO THIS MODEL FROM THE XIN ARRAY IN SEQUENTIAL ORDER
 
-    Latitude=xin[0];
-    Longitude=xin[1];
-    Solar_zenith_angle=xin[2];
-    Solar_azimuth_angle=xin[3];
-    Direct_normal_illuminance=xin[4];
-    Diffuse_horizontal_illuminance=xin[5];
-    Month=xin[6];
-    Day_of_the_month=xin[7];
-    Hour_of_the_day=xin[8];
-    Zone_ID=xin[9];
-    Control=xin[10];
-    iunit=info[0];
-    itype=info[1];
+      Latitude=xin[0];
+      Longitude=xin[1];
+      Direct_normal_illuminance=xin[2];
+      Diffuse_horizontal_illuminance=xin[3];
+      Month=xin[4];
+      Day_of_the_month=xin[5];
+      Hour_of_the_day=xin[6];
+      ZoneID=xin[7];
+
+
+      for (int i=0;i<10;i++)
+      {
+          Control[i] = xin[i+8];
+      }
+//      Control1=xin[8];
+//      Control2=xin[9];
+//      Control3=xin[10];
+//      Control4=xin[11];
+//      Control5=xin[12];
+//      Control6=xin[13];
+//      Control7=xin[14];
+//      Control8=xin[15];
+//      Control9=xin[16];
+//      Control10=xin[17];
+	 iunit=info[0];
+	 itype=info[1];
 
 //-----------------------------------------------------------------------------------------------------------------------
 //    SET THE VERSION INFORMATION FOR TRNSYS
-    if (info[6]== -2)
+      if (info[6]== -2)
     {
-        info[11]=16;
-        // add additional initialisation code here, if any
-        return 1;
+	   info[11]=16;
+     // add additional initialisation code here, if any
+	   return 1;
     }
 //-----------------------------------------------------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------------------------------------------------
 //    DO ALL THE VERY LAST CALL OF THE SIMULATION MANIPULATIONS HERE
-    if (info[7]== -1)
-    {
-        return 1;
-    }
+      if (info[7]== -1)
+	   return 1;
 //-----------------------------------------------------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------------------------------------------------
 //    PERFORM ANY 'AFTER-ITERATION' MANIPULATIONS THAT ARE REQUIRED HERE
 //    e.g. save variables to storage array for the next timestep
-    if (info[12]>0)
-    {
+      if (info[12]>0)
+      {
 //	   nitems=0;
 //	   stored[0]=... (if NITEMS > 0)
 //        setStorageVars(STORED,NITEMS,INFO)
-        return 1;
-    }
+	     return 1;
+      }
 //-----------------------------------------------------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------------------------------------------------
 //    DO ALL THE VERY FIRST CALL OF THE SIMULATION MANIPULATIONS HERE
-    if (info[6]== -1) // first call of this component in the simulation
-    {
+      if (info[6]== -1) // first call of this component in the simulation
+      {
 //       SET SOME INFO ARRAY VARIABLES TO TELL THE TRNSYS ENGINE HOW THIS TYPE IS TO WORK
-        info[5]=nout;
-        info[8]=1;
-        info[9]=0;	// STORAGE FOR VERSION 16 HAS BEEN CHANGED
+         info[5]=nout;
+         info[8]=1;
+	   info[9]=0;	// STORAGE FOR VERSION 16 HAS BEEN CHANGED
 
 //       SET THE REQUIRED NUMBER OF INPUTS, PARAMETERS AND DERIVATIVES THAT THE USER SHOULD SUPPLY IN THE INPUT FILE
 //       IN SOME CASES, THE NUMBER OF VARIABLES MAY DEPEND ON THE VALUE OF PARAMETERS TO THIS MODEL....
-        nin=11;
-        npar=0;
-        nder=0;
+         nin=18;
+	       npar=0;
+	       nder=0;
 
 //       CALL THE TYPE CHECK SUBROUTINE TO COMPARE WHAT THIS COMPONENT REQUIRES TO WHAT IS SUPPLIED IN
 //       THE TRNSYS INPUT FILE
-        int dummy=1;
-        TYPECK(&dummy,info,&nin,&npar,&nder);
+    int dummy=1;
+		TYPECK(&dummy,info,&nin,&npar,&nder);
 
 //       SET THE NUMBER OF STORAGE SPOTS NEEDED FOR THIS COMPONENT
 //         nitems=0;
 //	     setStorageSize(nitems,info)
 
 
-        std::string Zone_ID_str = "Zone" + (static_cast<std::ostringstream*>( &(std::ostringstream() << Zone_ID) )->str());
+		std::string Zone_ID_str = "Zone" + (static_cast<std::ostringstream*>( &(std::ostringstream() << ZoneID) )->str());
 
 //      Create and launch view matrix batch file
 //
@@ -229,8 +265,8 @@ int TYPE153           (
 
 
         vmx_batch_file << "@REM View Matrix batch file" << std::endl;
-        vmx_batch_file << "SET RAYPATH=.;C:\\Trnsys17\\Radiance\\lib;\%RAYPATH\%" << std::endl; // setting of the Path and Raypath for the Radiance version 4.2.a.2
-        vmx_batch_file << "SET PATH=.;C:\\Trnsys17\\Radiance\\bin\\;\%PATH\%" << std::endl;
+        vmx_batch_file << "SET RAYPATH=.;C:\\Radiance\\lib;\%RAYPATH\%" << std::endl; // setting of the Path and Raypath for the Radiance version 4.2.a.2
+        vmx_batch_file << "SET PATH=.;C:\\Radiance\\bin\\;\%PATH\%" << std::endl;
         vmx_batch_file << "c:" << std::endl;
         vmx_batch_file << "cd /d \%~dp0" << std::endl;
         vmx_batch_file << "oconv " << Zone_ID_str << ".rad ";
@@ -251,7 +287,7 @@ int TYPE153           (
             counter++;
         }
         vmx_batch_file << "> temp/model_vmx.oct" << std::endl;
-        vmx_batch_file << "rcontrib -f klems_int.cal -bn Nkbins -o data/grid_%%s.vmx";
+        vmx_batch_file << "rcontrib -f klems_full.cal -bn Nkbins -o data/grid_%%s.vmx";
 
         vd_file.close();
 
@@ -292,8 +328,8 @@ int TYPE153           (
 
 
         dmx_batch_file << "@REM Daylighting Matrix batch file" << std::endl;
-        dmx_batch_file << "SET RAYPATH=.;C:\\Trnsys17\\Radiance\\lib;\%RAYPATH\%" << std::endl;
-        dmx_batch_file << "SET PATH=.;C:\\Trnsys17\\Radiance\\bin\\;\%PATH\%" << std::endl;
+        dmx_batch_file << "SET RAYPATH=.;C:\\Radiance\\lib;\%RAYPATH\%" << std::endl;
+        dmx_batch_file << "SET PATH=.;C:\\Radiance\\bin\\;\%PATH\%" << std::endl;
         dmx_batch_file << "c:" << std::endl;
         dmx_batch_file << "cd /d %~dp0" << std::endl;
         dmx_batch_file << "oconv " << Zone_ID_str << ".rad temp/sky_white1.rad > temp/model_dmx.oct" << std::endl;
@@ -315,72 +351,90 @@ int TYPE153           (
             delete[] viewdir[i];
         }
         delete[] viewdir;
+//       RETURN TO THE CALLING PROGRAM
+         return 1;
+      }
 
-        //       RETURN TO THE CALLING PROGRAM
-        return 1;
-    }
 
-    //-----------------------------------------------------------------------------------------------------------------------
-    //    DO ALL OF THE INITIAL TIMESTEP MANIPULATIONS HERE - THERE ARE NO ITERATIONS AT THE INTIAL TIME
-    if (time < (getSimulationStartTime() +
-                getSimulationTimeStep()/2.0))
-    {
-        //       SET THE UNIT NUMBER FOR FUTURE CALLS
-        iunit=info[0];
-        itype=info[1];
+//-----------------------------------------------------------------------------------------------------------------------
+//    DO ALL OF THE INITIAL TIMESTEP MANIPULATIONS HERE - THERE ARE NO ITERATIONS AT THE INTIAL TIME
+      if (time < (getSimulationStartTime() +
+       getSimulationTimeStep()/2.0))
+       {
+//       SET THE UNIT NUMBER FOR FUTURE CALLS
+         iunit=info[0];
+         itype=info[1];
 
-        //       CHECK THE PARAMETERS FOR PROBLEMS AND RETURN FROM THE SUBROUTINE IF AN ERROR IS FOUND
-        //         if(...) TYPECK(-4,INFO,0,"BAD PARAMETER #",0)
+//       CHECK THE PARAMETERS FOR PROBLEMS AND RETURN FROM THE SUBROUTINE IF AN ERROR IS FOUND
+//         if(...) TYPECK(-4,INFO,0,"BAD PARAMETER #",0)
 
-        //       PERFORM ANY REQUIRED CALCULATIONS TO SET THE INITIAL VALUES OF THE OUTPUTS HERE
+//       PERFORM ANY REQUIRED CALCULATIONS TO SET THE INITIAL VALUES OF THE OUTPUTS HERE
 //		 Maximum illuminance
-			xout[0]=0.0;
+			xout[0]=0;
 //		 Minimum illuminance
-			xout[1]=0.0;
+			xout[1]=0;
 //		 Average illuminance
-			xout[2]=0.0;
-//		 Control
-			xout[3]=0.0;
+			xout[2]=0;
+//		 Control1
+			xout[3]=0;
+//		 Control2
+			xout[4]=0;
+//		 Control3
+			xout[5]=0;
+//		 Control4
+			xout[6]=0;
+//		 Control5
+			xout[7]=0;
+//		 Control6
+			xout[8]=0;
+//		 Control7
+			xout[9]=0;
+//		 Control8
+			xout[10]=0;
+//		 Control9
+			xout[11]=0;
+//		 Control10
+			xout[12]=0;
 
-        //       PERFORM ANY REQUIRED CALCULATIONS TO SET THE INITIAL STORAGE VARIABLES HERE
-        //         nitems=0;
-        //	   stored[0]=...
+//       PERFORM ANY REQUIRED CALCULATIONS TO SET THE INITIAL STORAGE VARIABLES HERE
+//         nitems=0;
+//	   stored[0]=...
 
-        //       PUT THE STORED ARRAY IN THE GLOBAL STORED ARRAY
-        //         setStorageVars(stored,nitems,info)
+//       PUT THE STORED ARRAY IN THE GLOBAL STORED ARRAY
+//         setStorageVars(stored,nitems,info)
 
-        //       RETURN TO THE CALLING PROGRAM
-        return 1;
+//       RETURN TO THE CALLING PROGRAM
+         return 1;
 
-    }
-    //-----------------------------------------------------------------------------------------------------------------------
+      }
+//-----------------------------------------------------------------------------------------------------------------------
 
-    //-----------------------------------------------------------------------------------------------------------------------
-    //    *** ITS AN ITERATIVE CALL TO THIS COMPONENT ***
-    //-----------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------------
+//    *** ITS AN ITERATIVE CALL TO THIS COMPONENT ***
+//-----------------------------------------------------------------------------------------------------------------------
 
 
-    //-----------------------------------------------------------------------------------------------------------------------
-    //    RETRIEVE THE VALUES IN THE STORAGE ARRAY FOR THIS ITERATION
-    //      nitems=
-    //	    getStorageVars(stored,nitems,info)
-    //      stored[0]=
-    //-----------------------------------------------------------------------------------------------------------------------
-    //-----------------------------------------------------------------------------------------------------------------------
-    //    CHECK THE INPUTS FOR PROBLEMS
-    //      if(...) TYPECK(-3,INFO,'BAD INPUT #',0,0)
-    //	if(IERROR.GT.0) RETURN 1
-    //-----------------------------------------------------------------------------------------------------------------------
-    //-----------------------------------------------------------------------------------------------------------------------
-    //    *** PERFORM ALL THE CALCULATION HERE FOR THIS MODEL. ***
-    //-----------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------------
+//    RETRIEVE THE VALUES IN THE STORAGE ARRAY FOR THIS ITERATION
+//      nitems=
+//	    getStorageVars(stored,nitems,info)
+//      stored[0]=
+//-----------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------------
+//    CHECK THE INPUTS FOR PROBLEMS
+//      if(...) TYPECK(-3,INFO,'BAD INPUT #',0,0)
+//	if(IERROR.GT.0) RETURN 1
+//-----------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------------
+//    *** PERFORM ALL THE CALCULATION HERE FOR THIS MODEL. ***
+//-----------------------------------------------------------------------------------------------------------------------
 
-    //		ADD YOUR COMPONENT EQUATIONS HERE; BASICALLY THE EQUATIONS THAT WILL
-    //		CALCULATE THE OUTPUTS BASED ON THE PARAMETERS AND THE INPUTS.	REFER TO
-    //		CHAPTER 3 OF THE TRNSYS VOLUME 1 MANUAL FOR DETAILED INFORMATION ON
-    //		WRITING TRNSYS COMPONENTS.
+//		ADD YOUR COMPONENT EQUATIONS HERE; BASICALLY THE EQUATIONS THAT WILL
+//		CALCULATE THE OUTPUTS BASED ON THE PARAMETERS AND THE INPUTS.	REFER TO
+//		CHAPTER 3 OF THE TRNSYS VOLUME 1 MANUAL FOR DETAILED INFORMATION ON
+//		WRITING TRNSYS COMPONENTS.
 
-    //-----------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------------
     // variable in which output of Type is stored
     double avg = 0.0, ill_max = 0.0, ill_min = 0.0;
 
@@ -396,14 +450,14 @@ int TYPE153           (
 
     if (!illumzero)
     {
-        std::string Zone_ID_str = "Zone" + (static_cast<std::ostringstream*>( &(std::ostringstream() << Zone_ID) )->str());
+        std::string Zone_ID_str = "Zone" + (static_cast<std::ostringstream*>( &(std::ostringstream() << ZoneID) )->str());
         std::string three_phase_method_batch_filename = Zone_ID_str + "\\3pm.bat";
         std::ofstream three_phase_method_batch_file(three_phase_method_batch_filename.c_str());
 
 
         three_phase_method_batch_file << "@REM sky generation and Matrix multiplication with dctimestep" << std::endl;
-        three_phase_method_batch_file << "SET RAYPATH=.;C:\\Trnsys17\\Radiance\\lib;\%RAYPATH\%" << std::endl;
-        three_phase_method_batch_file << "SET PATH=.;C:\\Trnsys17\\Radiance\\bin\\;\%PATH\%" << std::endl;
+        three_phase_method_batch_file << "SET RAYPATH=.;C:\\Radiance\\lib;\%RAYPATH\%" << std::endl;
+        three_phase_method_batch_file << "SET PATH=.;C:\\Radiance\\bin\\;\%PATH\%" << std::endl;
         three_phase_method_batch_file << "c:" << std::endl;
         three_phase_method_batch_file << "cd /d %~dp0" << std::endl;
         // NOTE: Longitude in TRNSYS has different sign than longitude required by gendaylit
@@ -417,7 +471,7 @@ int TYPE153           (
         int n_windows; // number of windows
         vd_file >> n_windows;
 
-        std::string *window_names = new std::string[n_windows];
+  std::string *window_names = new std::string[n_windows];
 
         int counter = 0;
 
@@ -440,9 +494,9 @@ int TYPE153           (
         for (int i = 0; i < n_windows; i++)
         {
             std::string bsdf_filename;
-            bsdf_filename = static_cast<std::ostringstream*>( &(std::ostringstream() << Control ) )->str() + ".xml";
+            bsdf_filename = static_cast<std::ostringstream*>( &(std::ostringstream() << Control[i] ) )->str() + ".xml";
 
-            three_phase_method_batch_file << "\"!dctimestep data/grid_" << window_names[i] << ".vmx data/bsdf/" << bsdf_filename << " data/" << window_names[i] << ".dmx temp/skysun.skv\" ";
+            three_phase_method_batch_file << "\"!dctimestep -h data/grid_" << window_names[i] << ".vmx data/bsdf/" << bsdf_filename << " data/" << window_names[i] << ".dmx temp/skysun.skv\" ";
             if (i < n_windows-1)
             {
 
@@ -505,6 +559,7 @@ int TYPE153           (
         fclose(illuminances);
     }
 
+
 //-----------------------------------------------------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------------------------------------------------
@@ -524,17 +579,40 @@ int TYPE153           (
 //-----------------------------------------------------------------------------------------------------------------------
 //    SET THE OUTPUTS FROM THIS MODEL IN SEQUENTIAL ORDER AND GET OUT
 
-//	Maximum illuminance
-    xout[0]=ill_max;
-//  Minimum illuminance
-    xout[1]=ill_min;
-//  Average illuminance
-    xout[2]=avg;
-//  Control
-    xout[3]=Control;
+//		 Max illum
+			xout[0]=ill_max;
+//		 Min illum
+			xout[1]=ill_min;
+//		 Average illum
+			xout[2]=avg;
+//
 
+         for (int i=0;i<10;i++)
+              {
+                  xout[i+3] = Control[i];
+              }
+//       Control1
+//			xout[3]=Control1;
+////		 Control2
+//			xout[4]=Control2;
+////		 Control3
+//			xout[5]=Control3;
+////		 Control4
+//			xout[6]=Control4;
+////		 Control5
+//			xout[7]=Control5;
+////		 Control6
+//			xout[8]=Control6;
+////		 Control7
+//			xout[9]=Control7;
+////		 Control8
+//			xout[10]=Control8;
+////		 Control9
+//			xout[11]=Control9;
+////		 Control10
+//			xout[12]=Control10;
 //-----------------------------------------------------------------------------------------------------------------------
 //    EVERYTHING IS DONE - RETURN FROM THIS SUBROUTINE AND MOVE ON
-    return 1;
-}
+      return 1;
+      }
 //-----------------------------------------------------------------------------------------------------------------------

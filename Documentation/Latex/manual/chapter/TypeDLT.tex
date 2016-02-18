@@ -48,8 +48,9 @@ The advantages available by the use of TypeDLT are:
 \item Use of the BSDF file as input data
 \item Multi-zone daylighting analysis by adding more TypeDLT 
 \item Easy calculation of artificial lighting usage
-\item No limit in the geometry of the model
+\item No limit in the complexity of the model geometry 
 \item Complete overview of the CFS effects on building in terms of energy demand and thermal and visual comfort
+\item Possibility to control up to 10 windows/group of windows with different strategies.
 \end{itemize}
 
 \begin{figure}[h]
@@ -63,7 +64,6 @@ The disadvantages are due to:
 \renewcommand{\labelitemi}{\tiny$\blacksquare$}
 \item Time consuming simulation
 \item Not user-friendly simulation set-up
-\item Single control for the windows/group of windows within the same scene
 \end{itemize}
 
 The hourly-based approach allows a complete information sharing between the TypeDLT and the rest of the Types over the TRNSYS deck at each time-step, on the other hand this strategy take a lot of time because a daylighting simulation is performed at each time-step slowing down the energy simulation with TRNSYS.\\
@@ -74,15 +74,7 @@ The feature of a multiple shadings control within the same scene is currently un
 Below is sorted the list of software required for the TypeDLT running. Keep in mind that those software are only suggested, except for Radiance, and the user is free to use an equivalent software that does the same job.
 
 \subsection{Radiance}
-The \underline{Radiance version 4.2.a.4} is needed. This version is provided by NREL on their GitHub repository: \url{https://github.com/NREL/Radiance/releases} 
-Download the binary for Windows (win32.exe) and run the setup. Install this Radiance version in the Trnsys17 folder (\textit{C:\textbackslash Trnsys17\textbackslash Radiance}). It is not needed to set the PATH and RAYPATH environment.
-If you use newer version of Radiance for daylighting simulation with other tools (e.g. Diva, LadyBug\&HoneyBee) you could have some errors during the simulation with these tools. In order to avoid these problems, do not set the PATH and RAYPATH or delete the following paths from the Environment variables (see \url{http://www.computerhope.com/issues/ch000549.htm} if you are not familiar with) if Radiance has already set it for you:
-\begin{itemize}
-\renewcommand{\labelitemi}{\tiny$\blacksquare$}
-\item PATH: \textit{ C:\textbackslash Trnsys17\textbackslash Radiance\textbackslash bin\textbackslash }
-\item RAYPATH: \textit{ C:\textbackslash Trnsys17\textbackslash Radiance\textbackslash lib\textbackslash }
-\end{itemize}
-In fact, these paths are not needed due to they are directly defined in the batch file create by the TypeDLT.
+Download the binary for Windows from \url{https://github.com/NREL/Radiance/releases} and run the exe. Install Radiance to (\textit{C:\textbackslash Radiance}).
 
 \subsection{Perl environment for OS Windows}
 A Perl interpreter is necessary to run Perl application on Windows. In fact, some of the functions used in Three-Phase Method are written in Perl programming language, therefore an interpreter is required. 
@@ -92,11 +84,12 @@ For this purpose is possible get the proper version of Perl from \url{http://str
 Recompiling the DLT.dll file became necessary if you use a system different from Windows 8.1 64 bit, for which the TypeDLT has been compiled, or if the C\texttt{++} code has been modified.\\
 For this step, the batch file \textit{compilation\_into\_dll.bat} is supplied. The batch file contains two lines of code that execute mingw32-g++.exe which creates the DLL starting from the C\texttt{++} code. Follow the steps below to use the batch file:
 \begin{enumerate}
-\item Download mingw-get-setup.exe from \url{http://sourceforge.net/projects/mingw/files/latest/download?source=files} and install it in C: without space.
-\item Open Environment variables (see \url{http://www.computerhope.com/issues/ch000549.htm} if you are not familiar with) and in PATH add the string 
+\item Install code::block from \url{http://www.codeblocks.org/downloads}.
+\item Install mingw-get-setup.exe from \url{http://sourceforge.net/projects/mingw/files/latest/download?source=files} and install it in C: without space.
+\item Open Environment variables (see \url{http://www.computerhope.com/issues/ch000549.htm} if you are not familiar with) add  
 \begin{center}
 \textit{C:\textbackslash MinGW\textbackslash bin}
-\end{center} as in figure \ref{img2:environment}.
+\end{center} to the PATH as shown in figure \ref{img2:environment}.
 
 \begin{figure}[h]
 \centering
@@ -217,7 +210,7 @@ The Zone1.rad and materials.rad files are the files managed by the user in order
 \end{figure}
 
 \paragraph{Window and group of windows} 
-An important annotation have to be done about the windows grouping. Windows that have the same orientation and that receive the incident daylight without discrepancies due to external obstruction can be grouped in the same layer. In this way, the windows grouped in the same layer will have the same shading control and will not be possible to control them separately (even though at the state of the art is not possible in any case control windows or group of windows with two different controls).  \\
+An important annotation have to be done about the windows grouping. Windows that have the same orientation and that receive the incident daylight without discrepancies due to external obstruction can be grouped in the same layer. In this way, the windows grouped in the same layer will have the same shading control and will not be possible to control them separately.  \\
 If you need more information on the windows grouping please consult the Appendix - Additional Consideration of the Three-Phase Method tutorial \cite{3ph_tut}.
 
 
@@ -328,7 +321,7 @@ Locate the TypeDLT onto the TRNSYS deck. First, connect the following variable f
 \end{figure}
 
 
-Double click on the TypeDLT icon, set the Zone ID that correspond to the integer number that you have assigned in the previous section to the folder which contain the Radiance files on the input window. The default values in TRNSYS is 1 (Figure \ref{img5:DLTinput}).
+Double click on the TypeDLT icon, set the Zone ID that correspond to the integer number that you have assigned to the folder which contain the Radiance files on the input window. The default value in TRNSYS is 1 (Figure \ref{img5:DLTinput}).
 
 \begin{figure}[h]
 \centering
@@ -362,7 +355,7 @@ Once the TRNSYS deck is ready and the first simulation is run the view and dayli
 \caption{\label{img5:3pm} Terminal window - Sky vector generation and matrix multiplication }
 \end{figure}
 
-The vmx and dmx matrices generation requires several minutes depending also by the complexity of the geometry. Once the matrices are crated it is not necessary to regenerate them at each time-step and for the next simulations of the same Radiance scene. At each time-step will be created the sky vector and performed the matrices multiplication (Figure \ref{img5:3pm}) that require few seconds.
+The vmx and dmx matrices generation requires several minutes depending also by the complexity of the geometry and the number of windows in the scene. Once the matrices are crated it is not necessary to regenerate them at each time-step and for the next simulations of the same Radiance scene. At each time-step will be created the sky vector and performed the matrices multiplication (Figure \ref{img5:3pm}) that require few seconds.
 It is very important to know that the *.vmx and *.dmx files generated are not overwrite in any case, therefore if you need to regenerate these files delete them manually in the folder "data".\\
 
 \subsection{Radiance parameters}
