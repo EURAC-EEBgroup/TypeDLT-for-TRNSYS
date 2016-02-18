@@ -12,15 +12,15 @@ The TypeDLT receives the following inputs from the weather file:
 In this way it can identify the building location (and thus calculate the sun path) and the information for the climate-based analysis. The following parameters are set in the Type's control panel:
 \begin{itemize}
 \renewcommand{\labelitemi}{\tiny$\blacksquare$}
-\item Zone ID, thermal zone for which the shading system is controlled
-\item Control, determining which BSDF is used
+\item Zone ID, zone for which the daylighting simulation is run
+\item Control1-10, BSDF used for each of the 10 control
 \end{itemize}
-These parameters are necessary to identify the thermal zone where CFS are controlled, which CFS assigned to that zone are controlled, and which are the initial conditions for the simulation. A BSDF data file has to be provided for each shading state. In order to independently control a series of thermal zones, the TypeDLT can be added as functional block to the simulation model multiple times, with different parameters, inputs, and outputs.
+These parameters are necessary to identify the scene to be simulated, which CFS assign to each window/group of windows in the scene, and which are the initial conditions for the simulation. A BSDF data file has to be provided for each shading state. In order to simulate a series of zones, the TypeDLT can be added as functional block to the simulation model multiple times, with different parameters, inputs, and outputs. If it is necessary to independently control more windows (with a maximum of ten) in the same scene, associate to each window a control and manage it in the TypeDLT control panel.
 The outputs of the Type are:
 \begin{itemize}
 \renewcommand{\labelitemi}{\tiny$\blacksquare$}
 \item Maximum (or average, minimum) illuminance value over the sensors grid
-\item Control, current shading state
+\item Control1-10, current shading state for each control
 \end{itemize}
 The control algorithm, defined through a series of equations which can involve inputs and outputs of other Types, the Type56 and the TypeDLT are interlinked. Loops between Types can be formed. By default, TRNSYS performs iterations after each time step until all parameters, inputs and outputs of every Type have converged. Therefore, the main difference with other integrated software is the time-step interaction of the TypeDLT with the other Types contained into the TRNSYS deck. \\
 The control algorithm is not incorporated into the TypeDLT, but implemented through the "Equation" functional blocks that TRNSYS offers by default. This has the big advantage that the TypeDLT does not need to be recompiled every time the control strategy has changed and can thus be reused more easily by the user.
@@ -32,7 +32,7 @@ This approach gives the maximum flexibility in the setting of a shading control 
 \caption{\label{img2:flow} Flow chart of the iteration process between daylighting and thermal simulation within each time step}
 \end{figure}
 
-Figure \ref{img2:flow} shows a typical workflow of the process. Both the daylighting (TypeDLT) and the thermal (Type56) simulations take their inputs. Then, the BSDF data and the Types' outputs are passed to a control "Equation" (a special functional block of TRNSYS in which an equation system can be defined) that modifies the shading states. By default, TRNSYS iterates until all Type outputs have reached convergence. Only then, it advances in time by performing the next time step.\\ 
+Figure \ref{img2:flow} shows a typical work-flow of the process. Both the daylighting (TypeDLT) and the thermal (Type56) simulations take their inputs. Then, the BSDF data and the Types' outputs are passed to a control "Equation" (a special functional block of TRNSYS in which an equation system can be defined) that modifies the shading states. By default, TRNSYS iterates until all Type outputs have reached convergence. Only then, it advances in time by performing the next time step.\\ 
 At each time step the TypeDLT outputs can be shard with all the other types onto the TRNSYS deck (Figure \ref{img2:implem}), for example can be used for the artificial light calculations, in the control algorithm and/or passed to the Type56 as shading factor.
 
 %\begin{figure}[h]
@@ -50,12 +50,12 @@ The advantages available by the use of TypeDLT are:
 \item Easy calculation of artificial lighting usage
 \item No limit in the complexity of the model geometry 
 \item Complete overview of the CFS effects on building in terms of energy demand and thermal and visual comfort
-\item Possibility to control up to 10 windows/group of windows with different strategies.
+\item Possibility to independently control up to 10 windows/group of windows with different strategies.
 \end{itemize}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{implem}
+\includegraphics[width=0.7\textwidth]{implem2}
 \caption{\label{img2:implem} TypeDLT outputs and possible connection with other types}
 \end{figure}
 
@@ -254,7 +254,7 @@ And deleting some other unused folder:
 
 In order to make available the input data for TypeDLT it is necessary to modify some files generated with SketchUp and to create a new one, which will collect all the windows in the scene. For this part, it is recommended to use a simple text editor. 3PM requires that the windows in the scene are a secondary light source, so that the user has to change the windows material in glow material, see Three-Phase Method tutorial for in-depth considerations \cite{3ph_tut}. To do this the user has to open the rad file containing the window/windows geometries and add in the heading of this file the glow definition as shown in figure \ref{img4:winglow}. Then, move the window.rad file from the "objects" folders to the "window" folder.
 
-A new file called {\color{blue} win.vd} has to be created within the "window" folder. In this new file insert the number of windows/group of windows and the list of this windows/group of windows following a specific format: window modifier, view direction (vd) and view up (vp). The view direction is the window normal vector facing toward the outside of the room, the view up is the window up vector, vd and vu are always orthogonal.
+A new file called {\color{blue} win.vd} has to be created within the "window" folder. In this new file insert the number of windows/group of windows and the list of this windows/group of windows following a specific format: window modifier, view direction (vd) and view up (vp). The view direction is the window normal vector facing toward the outside of the room, the view up is the window up vector, vd and vu are always orthogonal. No more than 10 windows/group of windows can be used in the scene (if you need more windows, just modify the TypeDLT code with the number you need). The controls input (from 1 to 10) follow the order you give in the win.vd file. Therefore, Control1 will correspond to the first window in the win.vd list and so forth.
 
 Figure \ref{img4:windoworient} shows how to choose vd and vu from a sample geometry in which there is a window facing south. It is also shown how to report these information in the win.vd file for a window with modifier window\_south. 
 

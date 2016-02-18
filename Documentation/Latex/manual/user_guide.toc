@@ -11,9 +11,9 @@
 \contentsline {subsection}{\numberline {2.2.3}TypeDLT}{8}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Tool Chain}{10}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}BSDF data generation - WINDOW 7.3}{10}{subsection.2.3.1}
-\contentsline {paragraph}{Importing new window system in TRNSYS}{11}{figure.2.7}
+\contentsline {paragraph}{Importing new window system in TRNSYS}{12}{figure.2.7}
 \contentsline {subsection}{\numberline {2.3.2}Google SketchUp}{12}{subsection.2.3.2}
 \contentsline {paragraph}{Window and group of windows}{13}{figure.2.9}
-\contentsline {subsection}{\numberline {2.3.3}Manual tweaks}{13}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Manual tweaks}{14}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}TRNSYS}{17}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Radiance parameters}{19}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Radiance parameters}{20}{subsection.2.4.1}
