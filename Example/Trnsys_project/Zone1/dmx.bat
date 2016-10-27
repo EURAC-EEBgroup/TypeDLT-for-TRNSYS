@@ -1,6 +1,6 @@
 @REM Daylighting Matrix batch file
-SET RAYPATH=.;C:\Trnsys17\Radiance\lib;%RAYPATH%
-SET PATH=.;C:\Trnsys17\Radiance\bin\;%PATH%
+SET RAYPATH=.;C:\Radiance\lib;%RAYPATH%
+SET PATH=.;C:\Radiance\bin\;%PATH%
 c:
 cd /d %~dp0
 oconv Zone1.rad temp/sky_white1.rad > temp/model_dmx.oct
