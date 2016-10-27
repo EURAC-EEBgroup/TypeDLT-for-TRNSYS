@@ -436,7 +436,7 @@ int TYPE153           (
 
 //-----------------------------------------------------------------------------------------------------------------------
     // variable in which output of Type is stored
-    double avg = 0.0, ill_max = 0.0, ill_min = 0.0;
+    double avg = 0.0, ill_max = 0.0, ill_min = 9999999.0;
 
     //-----------------------------------------------------------------------------------------------------------------------
     // do nothing if illuminances are zero
@@ -523,41 +523,65 @@ int TYPE153           (
 //-----------------------------------------------------------------------------------------------------------------------
 // store radiance results and calculate output of Type
 
-        FILE *illuminances, *radiance_results;
-
-        illuminances = fopen("illuminances.csv", "a");
 
         std::string radiance_results_filename = Zone_ID_str + "\\data\\ill_wind.dat";
+        std::ifstream radiance_results(radiance_results_filename.c_str());
 
-        radiance_results = fopen(radiance_results_filename.c_str(), "r");
-
-        if (illuminances == NULL || radiance_results == NULL)
+        if (radiance_results == NULL)
         {
             abort();
         }
 
-        char result_str[300];
-        double result_double;
+        double result_double ;
         int n_avg = 0;
-
+        double sum = 0.0;
+        //double ill_min = 999999.0;
         // NOTE: the last output row of dctimestep is empty and IS THEREFORE NOT STORED in the outputs file in the following loop
-        do
+
+        while(radiance_results>>result_double)
         {
-            result_double = atof(fgets(result_str, 300, radiance_results));
-            if (!feof(radiance_results))
-                fprintf(illuminances, "%f\n", result_double);
+
             ill_max = (result_double > ill_max) ? result_double : ill_max;
             ill_min = (result_double < ill_min) ? result_double : ill_min;
-            avg += result_double;
+            sum = sum + result_double;
             n_avg++;
+
+
         }
-        while (!feof(radiance_results));
 
-        avg /= n_avg;
 
-        fclose(radiance_results);
-        fclose(illuminances);
+        avg = sum/n_avg;
+
     }
+//        radiance_results = fopen(radiance_results_filename.c_str(), "r");
+
+//        if (illuminances == NULL || radiance_results == NULL)
+//        {
+//            abort();
+//        }
+//
+//        char result_str[300];
+//        double result_double;
+//        int n_avg = 0;
+//
+//        // NOTE: the last output row of dctimestep is empty and IS THEREFORE NOT STORED in the outputs file in the following loop
+//        do
+//        {
+//             result_double = atof(fgets(result_str, 300, radiance_results));
+//            if (!feof(radiance_results))
+//                fprintf(illuminances, "%f\n", result_double);
+//            //ill_max = (result_double > ill_max) ? result_double : ill_max;
+//            //ill_min = (result_double < ill_min) ? result_double : ill_min;
+//            avg += result_double;
+//            n_avg++;
+//        }
+//        while (!feof(radiance_results));
+//
+//        avg /= n_avg;
+//
+//        fclose(radiance_results);
+//        fclose(illuminances);
+//    }
 
 
 //-----------------------------------------------------------------------------------------------------------------------
@@ -582,7 +606,15 @@ int TYPE153           (
 //		 Max illum
 			xout[0]=ill_max;
 //		 Min illum
-			xout[1]=ill_min;
+            if(!illumzero)
+            {
+            xout[1]=ill_min;
+            }
+            else
+            {
+            xout[1]=0.0;
+            }
+
 //		 Average illum
 			xout[2]=avg;
 //
