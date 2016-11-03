@@ -29,6 +29,7 @@
 // ***
 //			Latitude	degrees [-90;90]
 //			Longitude	degrees [-180;180]
+//			Time Zone	- [-12;12]
 //			Direct normal illuminance	lux [0;+Inf]
 //			Diffuse horizontal illuminance	lux [0;+Inf]
 //			Month	any [1;12]
@@ -110,7 +111,7 @@ int TYPE153           (
 
   // *** STANDARD TRNSYS DECLARATIONS
   int npar= 0;   // number of parameters we expect
-  int nin= 18;   // number of inputs
+  int nin= 19;   // number of inputs
   int nout=13; // number of outputs
   int nder=0;   // number of derivatives
   int iunit; // UNIT number ('serial number' of the component, from the input file (the 'deck')
@@ -150,6 +151,7 @@ int TYPE153           (
 //    INPUTS
       double Latitude;
       double Longitude;
+      double Time_Zone;
       double Direct_normal_illuminance;
       double Diffuse_horizontal_illuminance;
       double Month;
@@ -157,16 +159,6 @@ int TYPE153           (
       double Hour_of_the_day;
       double ZoneID;
       int Control[10];
-//      double Control1;
-//      double Control2;
-//      double Control3;
-//      double Control4;
-//      double Control5;
-//      double Control6;
-//      double Control7;
-//      double Control8;
-//      double Control9;
-//      double Control10;
 
 //-----------------------------------------------------------------------------------------------------------------------
 //       READ IN THE VALUES OF THE PARAMETERS IN SEQUENTIAL ORDER
@@ -176,28 +168,17 @@ int TYPE153           (
 
       Latitude=xin[0];
       Longitude=xin[1];
-      Direct_normal_illuminance=xin[2];
-      Diffuse_horizontal_illuminance=xin[3];
-      Month=xin[4];
-      Day_of_the_month=xin[5];
-      Hour_of_the_day=xin[6];
-      ZoneID=xin[7];
-
-
+      Time_Zone=xin[2];
+      Direct_normal_illuminance=xin[3];
+      Diffuse_horizontal_illuminance=xin[4];
+      Month=xin[5];
+      Day_of_the_month=xin[6];
+      Hour_of_the_day=xin[7];
+      ZoneID=xin[8];
       for (int i=0;i<10;i++)
       {
-          Control[i] = xin[i+8];
+          Control[i] = xin[i+9];
       }
-//      Control1=xin[8];
-//      Control2=xin[9];
-//      Control3=xin[10];
-//      Control4=xin[11];
-//      Control5=xin[12];
-//      Control6=xin[13];
-//      Control7=xin[14];
-//      Control8=xin[15];
-//      Control9=xin[16];
-//      Control10=xin[17];
 	 iunit=info[0];
 	 itype=info[1];
 
@@ -240,7 +221,7 @@ int TYPE153           (
 
 //       SET THE REQUIRED NUMBER OF INPUTS, PARAMETERS AND DERIVATIVES THAT THE USER SHOULD SUPPLY IN THE INPUT FILE
 //       IN SOME CASES, THE NUMBER OF VARIABLES MAY DEPEND ON THE VALUE OF PARAMETERS TO THIS MODEL....
-         nin=18;
+         nin=19;
 	       npar=0;
 	       nder=0;
 
@@ -461,9 +442,9 @@ int TYPE153           (
         three_phase_method_batch_file << "c:" << std::endl;
         three_phase_method_batch_file << "cd /d %~dp0" << std::endl;
         // NOTE: Longitude in TRNSYS has different sign than longitude required by gendaylit
-        three_phase_method_batch_file << "gendaylit " << Month << " " << Day_of_the_month << " +" << Hour_of_the_day <<
+        three_phase_method_batch_file << "gendaylit " << Month << " " << Day_of_the_month << " " << Hour_of_the_day <<
                                       " -L " << Direct_normal_illuminance << " " << Diffuse_horizontal_illuminance << " -a " << Latitude <<
-                                      " -o " << -Longitude << " -i 60 | genskyvec.pl -m 4 -c 1 1 1 > temp/skysun.skv" << std::endl;
+                                      " -o " << -Longitude << " -m " << -Time_Zone*15 << " -i 60 | genskyvec.pl -m 4 -c 1 1 1 > temp/skysun.skv" << std::endl;
 
         std::string vd_filename = Zone_ID_str + "\\window\\win.vd"; // file containing window names, normals to windows pointing to the inside and view up vectors; window names have to correspond to *.rad file names
         std::ifstream vd_file(vd_filename.c_str());
@@ -553,36 +534,6 @@ int TYPE153           (
         avg = sum/n_avg;
 
     }
-//        radiance_results = fopen(radiance_results_filename.c_str(), "r");
-
-//        if (illuminances == NULL || radiance_results == NULL)
-//        {
-//            abort();
-//        }
-//
-//        char result_str[300];
-//        double result_double;
-//        int n_avg = 0;
-//
-//        // NOTE: the last output row of dctimestep is empty and IS THEREFORE NOT STORED in the outputs file in the following loop
-//        do
-//        {
-//             result_double = atof(fgets(result_str, 300, radiance_results));
-//            if (!feof(radiance_results))
-//                fprintf(illuminances, "%f\n", result_double);
-//            //ill_max = (result_double > ill_max) ? result_double : ill_max;
-//            //ill_min = (result_double < ill_min) ? result_double : ill_min;
-//            avg += result_double;
-//            n_avg++;
-//        }
-//        while (!feof(radiance_results));
-//
-//        avg /= n_avg;
-//
-//        fclose(radiance_results);
-//        fclose(illuminances);
-//    }
-
 
 //-----------------------------------------------------------------------------------------------------------------------
 
@@ -617,32 +568,14 @@ int TYPE153           (
 
 //		 Average illum
 			xout[2]=avg;
-//
 
+//    control from 1 to 10
          for (int i=0;i<10;i++)
               {
                   xout[i+3] = Control[i];
               }
-//       Control1
-//			xout[3]=Control1;
-////		 Control2
-//			xout[4]=Control2;
-////		 Control3
-//			xout[5]=Control3;
-////		 Control4
-//			xout[6]=Control4;
-////		 Control5
-//			xout[7]=Control5;
-////		 Control6
-//			xout[8]=Control6;
-////		 Control7
-//			xout[9]=Control7;
-////		 Control8
-//			xout[10]=Control8;
-////		 Control9
-//			xout[11]=Control9;
-////		 Control10
-//			xout[12]=Control10;
+
+
 //-----------------------------------------------------------------------------------------------------------------------
 //    EVERYTHING IS DONE - RETURN FROM THIS SUBROUTINE AND MOVE ON
       return 1;

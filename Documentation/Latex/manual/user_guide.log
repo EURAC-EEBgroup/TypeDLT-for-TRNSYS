@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.17)  18 FEB 2016 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.17)  3 NOV 2016 15:49
 entering extended mode
 **./user_guide.tex
 (user_guide.tex
@@ -664,11 +664,11 @@ Chapter 2.
 File: ./immagini/control.png Graphic file (type png)
 
 <use ./immagini/control.png>
-Package pdftex.def Info: ./immagini/control.png used on input line 31.
+Package pdftex.def Info: ./immagini/control.png used on input line 33.
 (pdftex.def)             Requested size: 288.79422pt x 316.61307pt.
 File: ./immagini/logo.png Graphic file (type png)
  <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 37.
+Package pdftex.def Info: ./immagini/logo.png used on input line 39.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -682,11 +682,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./immagini/implem2.png Graphic file (type png)
 
 <use ./immagini/implem2.png>
-Package pdftex.def Info: ./immagini/implem2.png used on input line 58.
+Package pdftex.def Info: ./immagini/implem2.png used on input line 60.
 (pdftex.def)             Requested size: 288.79422pt x 183.31651pt.
 File: ./immagini/logo.png Graphic file (type png)
  <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 73.
+Package pdftex.def Info: ./immagini/logo.png used on input line 75.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -697,21 +697,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7 <./immagini/implem2.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 77.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 79.
 
-Overfull \hbox (5.83913pt too wide) in paragraph at lines 77--78
+Overfull \hbox (5.83913pt too wide) in paragraph at lines 79--80
 \T1/phv/m/n/10.95 Download the bi-nary for Win-dows from []$\T1/cmtt/m/n/10.95 
 https : / / github . com / NREL / Radiance / releases$[]
  []
 
 
-Overfull \hbox (21.82881pt too wide) in paragraph at lines 88--89
+Overfull \hbox (21.82881pt too wide) in paragraph at lines 90--91
 []\T1/phv/m/n/10.95 Install mingw-get-setup.exe from []$\T1/cmtt/m/n/10.95 http
  : / / sourceforge . net / projects / mingw / files /$
  []
 
 
-Overfull \hbox (25.86945pt too wide) in paragraph at lines 89--90
+Overfull \hbox (25.86945pt too wide) in paragraph at lines 91--92
 []\T1/phv/m/n/10.95 Open En-vi-ron-ment vari-ables (see []$\T1/cmtt/m/n/10.95 h
 ttp : / / www . computerhope . com / issues / ch000549 .$
  []
@@ -720,7 +720,7 @@ ttp : / / www . computerhope . com / issues / ch000549 .$
 File: ./immagini/environment.png Graphic file (type png)
 
 <use ./immagini/environment.png>
-Package pdftex.def Info: ./immagini/environment.png used on input line 96.
+Package pdftex.def Info: ./immagini/environment.png used on input line 98.
 (pdftex.def)             Requested size: 206.28249pt x 240.8257pt.
 
 
@@ -728,7 +728,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./immagini/logo.png Graphic file (type png)
 <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 111.
+Package pdftex.def Info: ./immagini/logo.png used on input line 113.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -741,11 +741,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./immagini/mingw.png Graphic file (type png)
 
 <use ./immagini/mingw.png>
-Package pdftex.def Info: ./immagini/mingw.png used on input line 117.
+Package pdftex.def Info: ./immagini/mingw.png used on input line 119.
 (pdftex.def)             Requested size: 247.54149pt x 126.00682pt.
 File: ./immagini/logo.png Graphic file (type png)
  <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 136.
+Package pdftex.def Info: ./immagini/logo.png used on input line 138.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -755,7 +755,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./immagini/environment.png> <./immagini/mingw.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
@@ -763,14 +763,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 File: ./immagini/windowsystem.png Graphic file (type png)
 
 <use ./immagini/windowsystem.png>
-Package pdftex.def Info: ./immagini/windowsystem.png used on input line 151.
+Package pdftex.def Info: ./immagini/windowsystem.png used on input line 153.
 (pdftex.def)             Requested size: 330.05322pt x 145.56091pt.
 
 <./immagini/shadinglibrary.png, id=203, 474.27188pt x 380.92313pt>
 File: ./immagini/shadinglibrary.png Graphic file (type png)
 
 <use ./immagini/shadinglibrary.png>
-Package pdftex.def Info: ./immagini/shadinglibrary.png used on input line 159.
+Package pdftex.def Info: ./immagini/shadinglibrary.png used on input line 161.
 (pdftex.def)             Requested size: 247.54149pt x 198.81934pt.
 
 
@@ -778,7 +778,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./immagini/logo.png Graphic file (type png)
 <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 164.
+Package pdftex.def Info: ./immagini/logo.png used on input line 166.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -792,22 +792,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./immagini/opticalcalc.png Graphic file (type png)
 
 <use ./immagini/opticalcalc.png>
-Package pdftex.def Info: ./immagini/opticalcalc.png used on input line 167.
+Package pdftex.def Info: ./immagini/opticalcalc.png used on input line 169.
 (pdftex.def)             Requested size: 247.54149pt x 153.19586pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--174
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
 
  []
 
 
-Overfull \hbox (1.04083pt too wide) in paragraph at lines 175--176
+Overfull \hbox (1.04083pt too wide) in paragraph at lines 177--178
 $\T1/cmtt/m/n/10.95 edu / trnsys / downloads / tutorials _ and _ examples / win
 dow5 / windowtutorial . pdf$[] \T1/phv/m/n/10.95 will
  []
 
 File: ./immagini/logo.png Graphic file (type png)
 <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 176.
+Package pdftex.def Info: ./immagini/logo.png used on input line 178.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -820,7 +820,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./immagini/logo.png Graphic file (type png)
 
 <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 197.
+Package pdftex.def Info: ./immagini/logo.png used on input line 199.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -833,18 +833,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./immagini/rad.png Graphic file (type png)
 
 <use ./immagini/rad.png>
-Package pdftex.def Info: ./immagini/rad.png used on input line 200.
+Package pdftex.def Info: ./immagini/rad.png used on input line 202.
 (pdftex.def)             Requested size: 247.54149pt x 188.64867pt.
 
 <./immagini/zone1rad.png, id=239, 240.9pt x 223.0734pt>
 File: ./immagini/zone1rad.png Graphic file (type png)
 
 <use ./immagini/zone1rad.png>
-Package pdftex.def Info: ./immagini/zone1rad.png used on input line 208.
+Package pdftex.def Info: ./immagini/zone1rad.png used on input line 210.
 (pdftex.def)             Requested size: 165.02347pt x 152.81456pt.
 File: ./immagini/logo.png Graphic file (type png)
  <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 215.
+Package pdftex.def Info: ./immagini/logo.png used on input line 217.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -858,20 +858,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./immagini/zone1.png Graphic file (type png)
 
 <use ./immagini/zone1.png>
-Package pdftex.def Info: ./immagini/zone1.png used on input line 222.
+Package pdftex.def Info: ./immagini/zone1.png used on input line 224.
 (pdftex.def)             Requested size: 288.79422pt x 173.56596pt.
 
 <./immagini/win.png, id=252, 344.0052pt x 317.5062pt>
 File: ./immagini/win.png Graphic file (type png)
  <use ./immagini/win.png>
-Package pdftex.def Info: ./immagini/win.png used on input line 248.
+Package pdftex.def Info: ./immagini/win.png used on input line 250.
 (pdftex.def)             Requested size: 185.65297pt x 171.35388pt.
 
 <./immagini/wingroup.png, id=253, 344.0052pt x 502.9992pt>
 File: ./immagini/wingroup.png Graphic file (type png)
 
 <use ./immagini/wingroup.png>
-Package pdftex.def Info: ./immagini/wingroup.png used on input line 251.
+Package pdftex.def Info: ./immagini/wingroup.png used on input line 253.
 (pdftex.def)             Requested size: 185.65297pt x 271.46202pt.
 
 
@@ -879,7 +879,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./immagini/logo.png Graphic file (type png)
 <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 256.
+Package pdftex.def Info: ./immagini/logo.png used on input line 258.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -891,7 +891,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [14 <./immagini/zone1.png>]
 File: ./immagini/logo.png Graphic file (type png)
  <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 261.
+Package pdftex.def Info: ./immagini/logo.png used on input line 263.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -905,32 +905,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./immagini/windraw.png Graphic file (type png)
 
 <use ./immagini/windraw.png>
-Package pdftex.def Info: ./immagini/windraw.png used on input line 266.
+Package pdftex.def Info: ./immagini/windraw.png used on input line 268.
 (pdftex.def)             Requested size: 247.54149pt x 174.27983pt.
 
 <./immagini/winvd.png, id=283, 343.5234pt x 126.7134pt>
 File: ./immagini/winvd.png Graphic file (type png)
 
 <use ./immagini/winvd.png>
-Package pdftex.def Info: ./immagini/winvd.png used on input line 270.
+Package pdftex.def Info: ./immagini/winvd.png used on input line 272.
 (pdftex.def)             Requested size: 123.77074pt x 45.65544pt.
 
 <./immagini/tutorial2.png, id=284, 352.1958pt x 233.1912pt>
 File: ./immagini/tutorial2.png Graphic file (type png)
 
 <use ./immagini/tutorial2.png>
-Package pdftex.def Info: ./immagini/tutorial2.png used on input line 278.
+Package pdftex.def Info: ./immagini/tutorial2.png used on input line 280.
 (pdftex.def)             Requested size: 206.28249pt x 136.58174pt.
 
 <./immagini/grid.png, id=286, 263.7855pt x 169.23225pt>
 File: ./immagini/grid.png Graphic file (type png)
 
 <use ./immagini/grid.png>
-Package pdftex.def Info: ./immagini/grid.png used on input line 287.
+Package pdftex.def Info: ./immagini/grid.png used on input line 289.
 (pdftex.def)             Requested size: 206.28249pt x 132.34148pt.
 File: ./immagini/logo.png Graphic file (type png)
  <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 290.
+Package pdftex.def Info: ./immagini/logo.png used on input line 292.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -944,14 +944,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./immagini/zone1data.png Graphic file (type png)
 
 <use ./immagini/zone1data.png>
-Package pdftex.def Info: ./immagini/zone1data.png used on input line 297.
+Package pdftex.def Info: ./immagini/zone1data.png used on input line 299.
 (pdftex.def)             Requested size: 206.28249pt x 149.01761pt.
 
 <./immagini/DLTint.png, id=301, 559.49025pt x 268.6035pt>
 File: ./immagini/DLTint.png Graphic file (type png)
 
 <use ./immagini/DLTint.png>
-Package pdftex.def Info: ./immagini/DLTint.png used on input line 319.
+Package pdftex.def Info: ./immagini/DLTint.png used on input line 321.
 (pdftex.def)             Requested size: 288.79422pt x 138.64998pt.
 
 
@@ -959,7 +959,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./immagini/logo.png Graphic file (type png)
 <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 325.
+Package pdftex.def Info: ./immagini/logo.png used on input line 329.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -969,48 +969,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17 <./immagini/grid.png> <./immagini/zone1data.png>]
-<./immagini/DLTinput.png, id=312, 490.83376pt x 292.09125pt>
-File: ./immagini/DLTinput.png Graphic file (type png)
+Overfull \hbox (10.89606pt too wide) in paragraph at lines 329--330
+$\T1/cmtt/m/n/10.95 upload . wikimedia . org / wikipedia / commons / e / e8 / S
+tandard _ World _ Time _ Zones .$
+ []
 
-<use ./immagini/DLTinput.png>
-Package pdftex.def Info: ./immagini/DLTinput.png used on input line 328.
-(pdftex.def)             Requested size: 288.79422pt x 171.86435pt.
+<./immagini/DLTinput2.png, id=313, 467.49657pt x 301.8778pt>
+File: ./immagini/DLTinput2.png Graphic file (type png)
 
-<./immagini/DLToutput.png, id=313, 490.2315pt x 293.29575pt>
-File: ./immagini/DLToutput.png Graphic file (type png)
+<use ./immagini/DLTinput2.png>
+Package pdftex.def Info: ./immagini/DLTinput2.png used on input line 337.
+(pdftex.def)             Requested size: 288.79422pt x 186.49438pt.
 
-<use ./immagini/DLToutput.png>
-Package pdftex.def Info: ./immagini/DLToutput.png used on input line 336.
-(pdftex.def)             Requested size: 288.79422pt x 172.7834pt.
+<./immagini/DLToutput2.png, id=314, 466.74374pt x 303.38344pt>
+File: ./immagini/DLToutput2.png Graphic file (type png)
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./immagini/vmx.png, id=316, 503.481pt x 327.02174pt>
-File: ./immagini/vmx.png Graphic file (type png)
- <use ./immagini/vmx.png>
-Package pdftex.def Info: ./immagini/vmx.png used on input line 345.
-(pdftex.def)             Requested size: 185.65297pt x 120.58696pt.
-
-<./immagini/dmx.png, id=317, 502.87875pt x 328.8285pt>
-File: ./immagini/dmx.png Graphic file (type png)
-
-<use ./immagini/dmx.png>
-Package pdftex.def Info: ./immagini/dmx.png used on input line 348.
-(pdftex.def)             Requested size: 185.65297pt x 121.39369pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./immagini/3pm_t.png, id=318, 502.2765pt x 339.06676pt>
-File: ./immagini/3pm_t.png Graphic file (type png)
-
-<use ./immagini/3pm_t.png>
-Package pdftex.def Info: ./immagini/3pm_t.png used on input line 354.
-(pdftex.def)             Requested size: 206.28249pt x 139.25108pt.
+<use ./immagini/DLToutput2.png>
+Package pdftex.def Info: ./immagini/DLToutput2.png used on input line 345.
+(pdftex.def)             Requested size: 288.79422pt x 187.72543pt.
 File: ./immagini/logo.png Graphic file (type png)
  <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 357.
+Package pdftex.def Info: ./immagini/logo.png used on input line 349.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -1019,14 +998,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./immagini/DLTint.png> <./immagini/DLTinput.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 358--360
+[18 <./immagini/DLTint.png> <./immagini/DLTinput2.png>]
+<./immagini/vmx.png, id=330, 503.481pt x 327.02174pt>
+File: ./immagini/vmx.png Graphic file (type png)
+ <use ./immagini/vmx.png>
+Package pdftex.def Info: ./immagini/vmx.png used on input line 354.
+(pdftex.def)             Requested size: 185.65297pt x 120.58696pt.
+
+<./immagini/dmx.png, id=331, 502.87875pt x 328.8285pt>
+File: ./immagini/dmx.png Graphic file (type png)
+
+<use ./immagini/dmx.png>
+Package pdftex.def Info: ./immagini/dmx.png used on input line 357.
+(pdftex.def)             Requested size: 185.65297pt x 121.39369pt.
+
+<./immagini/3pm_t.png, id=332, 502.2765pt x 339.06676pt>
+File: ./immagini/3pm_t.png Graphic file (type png)
+
+<use ./immagini/3pm_t.png>
+Package pdftex.def Info: ./immagini/3pm_t.png used on input line 363.
+(pdftex.def)             Requested size: 206.28249pt x 139.25108pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
 
  []
 
 File: ./immagini/logo.png Graphic file (type png)
 <use ./immagini/logo.png>
-Package pdftex.def Info: ./immagini/logo.png used on input line 360.
+Package pdftex.def Info: ./immagini/logo.png used on input line 369.
 (pdftex.def)             Requested size: 85.35826pt x 23.35799pt.
 
 
@@ -1035,8 +1034,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 <./immagini/DLToutput.png> <./immagini/vmx.png> <./immagini/dmx.png> <./imm
-agini/3pm_t.png>]) (chapter/Bib.tex
+[19 <./immagini/DLToutput2.png> <./immagini/vmx.png> <./immagini/dmx.png> <./im
+magini/3pm_t.png>]) (chapter/Bib.tex
 File: ./immagini/logo.png Graphic file (type png)
  <use ./immagini/logo.png>
 Package pdftex.def Info: ./immagini/logo.png used on input line 1.
@@ -1059,15 +1058,11 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `user_guide.out' has not changed.
 (rerunfilecheck)             Checksum: CB055A2C7341FF601B13FE06DDAF6A9F;1027.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
  9400 strings out of 493634
- 133107 string characters out of 3141299
+ 133117 string characters out of 3141299
  238715 words of memory out of 3000000
  12490 multiletter control sequences out of 15000+200000
  42892 words of font info for 59 fonts, out of 3000000 for 9000
@@ -1083,9 +1078,9 @@ m/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msam7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb
 8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on user_guide.pdf (22 pages, 989037 bytes).
+Output written on user_guide.pdf (22 pages, 987061 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
+ 475 PDF objects out of 1000 (max. 8388607)
  82 named destinations out of 1000 (max. 500000)
  356 words of extra memory for PDF output out of 10000 (max. 10000000)
 

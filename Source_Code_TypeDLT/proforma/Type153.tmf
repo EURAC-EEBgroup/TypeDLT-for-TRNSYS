@@ -43,7 +43,7 @@ __
 __
 __
 __
-31
+32
 Latitude
 SN
 1
@@ -89,6 +89,21 @@ real
 0
 lux
 Illuminance
+Time Zone
+SN
+1
+
+simple
+integer
+1
++
+-12
+12
+[ ; ]
+0
+0
+-
+Dimensionless
 Direct normal illuminance
 SN
 1
@@ -584,7 +599,7 @@ dimensionless
 0
 0
 0
-17
+18
 0
 
 

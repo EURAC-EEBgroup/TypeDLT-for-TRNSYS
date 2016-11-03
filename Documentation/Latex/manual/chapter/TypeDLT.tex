@@ -9,17 +9,19 @@ The TypeDLT receives the following inputs from the weather file:
 \item Direct normal illuminance
 \item Diffuse horizontal illuminance
 \end{itemize}
-In this way it can identify the building location (and thus calculate the sun path) and the information for the climate-based analysis. The following parameters are set in the Type's control panel:
+%In this way it can identify the building location (and thus calculate the sun path) and the information for the climate-based analysis. 
+The following parameters are set in the Type's control panel:
 \begin{itemize}
 \renewcommand{\labelitemi}{\tiny$\blacksquare$}
+\item Time Zone, time shift from GMT, positive for east
 \item Zone ID, zone for which the daylighting simulation is run
 \item Control1-10, BSDF used for each of the 10 control
 \end{itemize}
-These parameters are necessary to identify the scene to be simulated, which CFS assign to each window/group of windows in the scene, and which are the initial conditions for the simulation. A BSDF data file has to be provided for each shading state. In order to simulate a series of zones, the TypeDLT can be added as functional block to the simulation model multiple times, with different parameters, inputs, and outputs. If it is necessary to independently control more windows (with a maximum of ten) in the same scene, associate to each window a control and manage it in the TypeDLT control panel.
+The previous parameters are needed to identify the building location (and thus calculate the sun position), the information for the climate-based analysis and to identify the scene to be simulated, which CFS assign to each window/group of windows in the scene, and which are the initial conditions for the simulation. A BSDF data file has to be provided for each shading state. In order to simulate a series of zones, the TypeDLT can be added as functional block to the simulation model multiple times, with different parameters, inputs, and outputs. If it is necessary to independently control more windows (with a maximum of ten) in the same scene, associate to each window a control and manage it in the TypeDLT control panel.
 The outputs of the Type are:
 \begin{itemize}
 \renewcommand{\labelitemi}{\tiny$\blacksquare$}
-\item Maximum (or average, minimum) illuminance value over the sensors grid
+\item Maximum, minimum and average illuminance value over the sensors grid
 \item Control1-10, current shading state for each control
 \end{itemize}
 The control algorithm, defined through a series of equations which can involve inputs and outputs of other Types, the Type56 and the TypeDLT are interlinked. Loops between Types can be formed. By default, TRNSYS performs iterations after each time step until all parameters, inputs and outputs of every Type have converged. Therefore, the main difference with other integrated software is the time-step interaction of the TypeDLT with the other Types contained into the TRNSYS deck. \\
@@ -321,11 +323,18 @@ Locate the TypeDLT onto the TRNSYS deck. First, connect the following variable f
 \end{figure}
 
 
-Double click on the TypeDLT icon, set the Zone ID that correspond to the integer number that you have assigned to the folder which contain the Radiance files on the input window. The default value in TRNSYS is 1 (Figure \ref{img5:DLTinput}).
+Double click on the TypeDLT icon, you will get the type's input window (Figure \ref{img5:DLTinput}). In this window is required to set:
+\begin{itemize}
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+\item Time Zone, time shift from GMT. It is very important to set this value correctly, an incorrect choice will cause an error in the calculation of the sun position. This value can be found within the weather file or at the following link \url{https://upload.wikimedia.org/wikipedia/commons/e/e8/Standard_World_Time_Zones.png}. Time zone values are included between -12 and 12, where positive values indicate east. Default value is 0 (Greenwich). 
+\item Zone ID, correspond to the integer number that you have assigned to the folder which contain the Radiance files. Default value is 1.
+\item Control1-10, BSDF used for each of the 10 control. These input is generally connected with the equation type where the control algorithm is written. Default value is 0.
+\end{itemize} 
+
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{DLTinput}
+\includegraphics[width=0.7\textwidth]{DLTinput2}
 \caption{\label{img5:DLTinput} Input window TypeDLT }
 \end{figure}
 
@@ -333,7 +342,7 @@ Double click on the TypeDLT icon, set the Zone ID that correspond to the integer
 At this point, the TypeDLT is ready to simulate and the user can connect the Type's outputs and inputs following its needs.\\
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{DLToutput}
+\includegraphics[width=0.7\textwidth]{DLToutput2}
 \caption{\label{img5:DLToutput} Output window TypeDLT }
 \end{figure}
 Once the TRNSYS deck is ready and the first simulation is run the view and daylighting matrices (see section \ref{sec:3ph} for theory) are generated and two terminal windows will be opened, Figure \ref{img5:matrices}.
